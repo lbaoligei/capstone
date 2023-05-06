@@ -1,0 +1,104 @@
+[0.000000] (-) TimerEvent: {}
+[0.001512] (drivetrain) JobQueued: {'identifier': 'drivetrain', 'dependencies': OrderedDict()}
+[0.002123] (drivetrain) JobStarted: {'identifier': 'drivetrain'}
+[0.099049] (-) TimerEvent: {}
+[0.199731] (-) TimerEvent: {}
+[0.300417] (-) TimerEvent: {}
+[0.401133] (-) TimerEvent: {}
+[0.501788] (-) TimerEvent: {}
+[0.602451] (-) TimerEvent: {}
+[0.703190] (-) TimerEvent: {}
+[0.803888] (-) TimerEvent: {}
+[0.904599] (-) TimerEvent: {}
+[1.005288] (-) TimerEvent: {}
+[1.105952] (-) TimerEvent: {}
+[1.206656] (-) TimerEvent: {}
+[1.307290] (-) TimerEvent: {}
+[1.408075] (-) TimerEvent: {}
+[1.509201] (-) TimerEvent: {}
+[1.609933] (-) TimerEvent: {}
+[1.710685] (-) TimerEvent: {}
+[1.811683] (-) TimerEvent: {}
+[1.912778] (-) TimerEvent: {}
+[2.013419] (-) TimerEvent: {}
+[2.114067] (-) TimerEvent: {}
+[2.214743] (-) TimerEvent: {}
+[2.315351] (-) TimerEvent: {}
+[2.415967] (-) TimerEvent: {}
+[2.516616] (-) TimerEvent: {}
+[2.617322] (-) TimerEvent: {}
+[2.717998] (-) TimerEvent: {}
+[2.818735] (-) TimerEvent: {}
+[2.919460] (-) TimerEvent: {}
+[3.020277] (-) TimerEvent: {}
+[3.121271] (-) TimerEvent: {}
+[3.222673] (-) TimerEvent: {}
+[3.234133] (drivetrain) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/robotrodeo/capstone/build/drivetrain/build'], 'cwd': '/home/robotrodeo/capstone/build/drivetrain', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'robotrodeo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robotrodeo/capstone/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robotrodeo', 'OLDPWD': '/home/robotrodeo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '8125', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robotrodeo/capstone/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robotrodeo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robotrodeo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/robotrodeo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robotrodeo-desktop:@/tmp/.ICE-unix/1710,unix/robotrodeo-desktop:/tmp/.ICE-unix/1710', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0c501365_3df1_4e67_adb3_07f3f75016ad', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T6T821', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.149', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/robot_interfaces:/home/robotrodeo/capstone/install/drivetrain:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robotrodeo/capstone/build/drivetrain', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robotrodeo/capstone/build/drivetrain/prefix_override:/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:/home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/robotrodeo/capstone/build/drivetrain:/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/robot_interfaces:/home/robotrodeo/capstone/install/articubot_one'}, 'shell': False}
+[3.322855] (-) TimerEvent: {}
+[3.423566] (-) TimerEvent: {}
+[3.524298] (-) TimerEvent: {}
+[3.625036] (-) TimerEvent: {}
+[3.725767] (-) TimerEvent: {}
+[3.826431] (-) TimerEvent: {}
+[3.927091] (-) TimerEvent: {}
+[4.027714] (-) TimerEvent: {}
+[4.128349] (-) TimerEvent: {}
+[4.229057] (-) TimerEvent: {}
+[4.329728] (-) TimerEvent: {}
+[4.430417] (-) TimerEvent: {}
+[4.531116] (-) TimerEvent: {}
+[4.592592] (drivetrain) StdoutLine: {'line': b'running develop\n'}
+[4.631276] (-) TimerEvent: {}
+[4.731914] (-) TimerEvent: {}
+[4.832558] (-) TimerEvent: {}
+[4.933213] (-) TimerEvent: {}
+[5.033953] (-) TimerEvent: {}
+[5.134859] (-) TimerEvent: {}
+[5.235613] (-) TimerEvent: {}
+[5.336361] (-) TimerEvent: {}
+[5.437015] (-) TimerEvent: {}
+[5.537975] (-) TimerEvent: {}
+[5.636181] (drivetrain) CommandEnded: {'returncode': 0}
+[5.638365] (-) TimerEvent: {}
+[5.642728] (drivetrain) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/drivetrain', 'build', '--build-base', '/home/robotrodeo/capstone/build/drivetrain/build', 'install', '--record', '/home/robotrodeo/capstone/build/drivetrain/install.log', '--single-version-externally-managed'], 'cwd': '/home/robotrodeo/capstone/src/drivetrain', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'robotrodeo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robotrodeo/capstone/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robotrodeo', 'OLDPWD': '/home/robotrodeo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '8125', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robotrodeo/capstone/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robotrodeo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robotrodeo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/robotrodeo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robotrodeo-desktop:@/tmp/.ICE-unix/1710,unix/robotrodeo-desktop:/tmp/.ICE-unix/1710', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0c501365_3df1_4e67_adb3_07f3f75016ad', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T6T821', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.149', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/robot_interfaces:/home/robotrodeo/capstone/install/drivetrain:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robotrodeo/capstone/build/drivetrain', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robotrodeo/capstone/build/drivetrain/prefix_override:/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:/home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/robotrodeo/capstone/build/drivetrain:/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/robot_interfaces:/home/robotrodeo/capstone/install/articubot_one'}, 'shell': False}
+[5.738583] (-) TimerEvent: {}
+[5.839444] (-) TimerEvent: {}
+[5.940211] (-) TimerEvent: {}
+[6.040929] (-) TimerEvent: {}
+[6.141600] (-) TimerEvent: {}
+[6.242256] (-) TimerEvent: {}
+[6.342963] (-) TimerEvent: {}
+[6.443588] (-) TimerEvent: {}
+[6.544218] (-) TimerEvent: {}
+[6.644917] (-) TimerEvent: {}
+[6.745559] (-) TimerEvent: {}
+[6.846264] (-) TimerEvent: {}
+[6.919329] (drivetrain) StdoutLine: {'line': b'running egg_info\n'}
+[6.921723] (drivetrain) StdoutLine: {'line': b'writing ../../build/drivetrain/drivetrain.egg-info/PKG-INFO\n'}
+[6.922908] (drivetrain) StdoutLine: {'line': b'writing dependency_links to ../../build/drivetrain/drivetrain.egg-info/dependency_links.txt\n'}
+[6.924551] (drivetrain) StdoutLine: {'line': b'writing entry points to ../../build/drivetrain/drivetrain.egg-info/entry_points.txt\n'}
+[6.925304] (drivetrain) StdoutLine: {'line': b'writing requirements to ../../build/drivetrain/drivetrain.egg-info/requires.txt\n'}
+[6.926319] (drivetrain) StdoutLine: {'line': b'writing top-level names to ../../build/drivetrain/drivetrain.egg-info/top_level.txt\n'}
+[6.934746] (drivetrain) StdoutLine: {'line': b"reading manifest file '../../build/drivetrain/drivetrain.egg-info/SOURCES.txt'\n"}
+[6.938599] (drivetrain) StdoutLine: {'line': b"writing manifest file '../../build/drivetrain/drivetrain.egg-info/SOURCES.txt'\n"}
+[6.939223] (drivetrain) StdoutLine: {'line': b'running build\n'}
+[6.939698] (drivetrain) StdoutLine: {'line': b'running build_py\n'}
+[6.941788] (drivetrain) StdoutLine: {'line': b'running install\n'}
+[6.943094] (drivetrain) StdoutLine: {'line': b'running install_lib\n'}
+[6.946391] (-) TimerEvent: {}
+[6.949629] (drivetrain) StdoutLine: {'line': b'running install_data\n'}
+[6.952346] (drivetrain) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.959220] (drivetrain) StdoutLine: {'line': b"removing '/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages/drivetrain-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.960864] (drivetrain) StdoutLine: {'line': b'Copying ../../build/drivetrain/drivetrain.egg-info to /home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages/drivetrain-0.0.0-py3.10.egg-info\n'}
+[6.966021] (drivetrain) StdoutLine: {'line': b'running install_scripts\n'}
+[7.046571] (-) TimerEvent: {}
+[7.049437] (drivetrain) StdoutLine: {'line': b'Installing arm_node script to /home/robotrodeo/capstone/install/drivetrain/lib/drivetrain\n'}
+[7.050493] (drivetrain) StdoutLine: {'line': b'Installing controller_node script to /home/robotrodeo/capstone/install/drivetrain/lib/drivetrain\n'}
+[7.051397] (drivetrain) StdoutLine: {'line': b'Installing drivetrain_node script to /home/robotrodeo/capstone/install/drivetrain/lib/drivetrain\n'}
+[7.052174] (drivetrain) StdoutLine: {'line': b'Installing tail_node script to /home/robotrodeo/capstone/install/drivetrain/lib/drivetrain\n'}
+[7.054302] (drivetrain) StdoutLine: {'line': b"writing list of installed files to '/home/robotrodeo/capstone/build/drivetrain/install.log'\n"}
+[7.146862] (-) TimerEvent: {}
+[7.189716] (drivetrain) CommandEnded: {'returncode': 0}
+[7.248110] (-) TimerEvent: {}
+[7.257832] (drivetrain) JobEnded: {'identifier': 'drivetrain', 'rc': 0}
+[7.260966] (-) EventReactorShutdown: {}

@@ -1,0 +1,680 @@
+[0.000000] (-) TimerEvent: {}
+[0.003383] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.003724] (encoder) JobQueued: {'identifier': 'encoder', 'dependencies': OrderedDict()}
+[0.003887] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.003976] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.004057] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.077735] (encoder) JobStarted: {'identifier': 'encoder'}
+[0.097868] (-) TimerEvent: {}
+[0.137711] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.177220] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.198095] (-) TimerEvent: {}
+[0.237026] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.243858] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '/home/robotrodeo/capstone/src/articubot_one', '-DCMAKE_INSTALL_PREFIX=/home/robotrodeo/capstone/install/articubot_one'], 'cwd': '/home/robotrodeo/capstone/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'robotrodeo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotrodeo'), ('OLDPWD', '/home/robotrodeo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1725'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robotrodeo/capstone/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotrodeo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotrodeo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robotrodeo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotrodeo-desktop:@/tmp/.ICE-unix/1678,unix/robotrodeo-desktop:/tmp/.ICE-unix/1678'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e6a31682_fe55_4a89_a009_914b0cc63815'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5I7421'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotrodeo/capstone/build/articubot_one'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotrodeo/capstone/build/encoder:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/articubot_one:/home/robotrodeo/capstone/install/encoder:/opt/ros/humble')]), 'shell': False}
+[0.298373] (-) TimerEvent: {}
+[0.399175] (-) TimerEvent: {}
+[0.500164] (-) TimerEvent: {}
+[0.601337] (-) TimerEvent: {}
+[0.702331] (-) TimerEvent: {}
+[0.803228] (-) TimerEvent: {}
+[0.904022] (-) TimerEvent: {}
+[1.004828] (-) TimerEvent: {}
+[1.105701] (-) TimerEvent: {}
+[1.206821] (-) TimerEvent: {}
+[1.307884] (-) TimerEvent: {}
+[1.409193] (-) TimerEvent: {}
+[1.510176] (-) TimerEvent: {}
+[1.611399] (-) TimerEvent: {}
+[1.712497] (-) TimerEvent: {}
+[1.814400] (-) TimerEvent: {}
+[1.872332] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'cmake'}
+[1.878638] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/robotrodeo/capstone/src/robot_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/robotrodeo/capstone/install/robot_interfaces'], 'cwd': '/home/robotrodeo/capstone/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'robotrodeo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotrodeo'), ('OLDPWD', '/home/robotrodeo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1725'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robotrodeo/capstone/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotrodeo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotrodeo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robotrodeo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotrodeo-desktop:@/tmp/.ICE-unix/1678,unix/robotrodeo-desktop:/tmp/.ICE-unix/1678'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e6a31682_fe55_4a89_a009_914b0cc63815'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5I7421'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotrodeo/capstone/build/robot_interfaces'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotrodeo/capstone/build/encoder:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/articubot_one:/home/robotrodeo/capstone/install/encoder:/opt/ros/humble')]), 'shell': False}
+[1.891547] (articubot_one) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.892537] (articubot_one) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.893268] (articubot_one) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.900079] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[1.907472] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/robotrodeo/capstone/src/sllidar_ros2', '-DCMAKE_INSTALL_PREFIX=/home/robotrodeo/capstone/install/sllidar_ros2'], 'cwd': '/home/robotrodeo/capstone/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'robotrodeo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotrodeo'), ('OLDPWD', '/home/robotrodeo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1725'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robotrodeo/capstone/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotrodeo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotrodeo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robotrodeo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotrodeo-desktop:@/tmp/.ICE-unix/1678,unix/robotrodeo-desktop:/tmp/.ICE-unix/1678'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e6a31682_fe55_4a89_a009_914b0cc63815'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5I7421'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotrodeo/capstone/build/sllidar_ros2'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotrodeo/capstone/build/encoder:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/articubot_one:/home/robotrodeo/capstone/install/encoder:/opt/ros/humble')]), 'shell': False}
+[1.918196] (-) TimerEvent: {}
+[1.974562] (articubot_one) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.991421] (sllidar_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.018472] (-) TimerEvent: {}
+[2.112922] (articubot_one) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.118767] (-) TimerEvent: {}
+[2.131785] (articubot_one) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.139666] (articubot_one) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.216389] (articubot_one) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.218987] (-) TimerEvent: {}
+[2.238901] (articubot_one) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.319327] (-) TimerEvent: {}
+[2.343463] (articubot_one) StdoutLine: {'line': b'-- Generating done\n'}
+[2.355694] (articubot_one) StdoutLine: {'line': b'-- Build files have been written to: /home/robotrodeo/capstone/build/articubot_one\n'}
+[2.399895] (articubot_one) CommandEnded: {'returncode': 0}
+[2.401589] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[2.401721] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotrodeo/capstone/build/articubot_one', '--', '-j4', '-l4'], 'cwd': '/home/robotrodeo/capstone/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'robotrodeo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotrodeo'), ('OLDPWD', '/home/robotrodeo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1725'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robotrodeo/capstone/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotrodeo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotrodeo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robotrodeo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotrodeo-desktop:@/tmp/.ICE-unix/1678,unix/robotrodeo-desktop:/tmp/.ICE-unix/1678'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e6a31682_fe55_4a89_a009_914b0cc63815'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5I7421'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotrodeo/capstone/build/articubot_one'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotrodeo/capstone/build/encoder:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/articubot_one:/home/robotrodeo/capstone/install/encoder:/opt/ros/humble')]), 'shell': False}
+[2.419566] (-) TimerEvent: {}
+[2.521241] (-) TimerEvent: {}
+[2.622263] (-) TimerEvent: {}
+[2.633483] (articubot_one) CommandEnded: {'returncode': 0}
+[2.722620] (-) TimerEvent: {}
+[2.734035] (robot_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[2.797735] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[2.822847] (-) TimerEvent: {}
+[2.844458] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotrodeo/capstone/build/articubot_one'], 'cwd': '/home/robotrodeo/capstone/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'robotrodeo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotrodeo'), ('OLDPWD', '/home/robotrodeo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1725'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robotrodeo/capstone/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotrodeo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotrodeo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robotrodeo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotrodeo-desktop:@/tmp/.ICE-unix/1678,unix/robotrodeo-desktop:/tmp/.ICE-unix/1678'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e6a31682_fe55_4a89_a009_914b0cc63815'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5I7421'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotrodeo/capstone/build/articubot_one'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotrodeo/capstone/build/encoder:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/articubot_one:/home/robotrodeo/capstone/install/encoder:/opt/ros/humble')]), 'shell': False}
+[2.896687] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.900273] (articubot_one) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.906937] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml\n'}
+[2.911486] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml\n'}
+[2.917489] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/drive_bot.rviz\n'}
+[2.923236] (-) TimerEvent: {}
+[2.925747] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[2.928610] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[2.931771] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/gazebo_params.yaml\n'}
+[2.937850] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/joystick.yaml\n'}
+[2.940382] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/main.rviz\n'}
+[2.941732] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/map.rviz\n'}
+[2.944743] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml\n'}
+[2.950879] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/my_controllers.yaml\n'}
+[2.963347] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/nav2_params.yaml\n'}
+[2.964181] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/twist_mux.yaml\n'}
+[2.965471] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/view_bot.rviz\n'}
+[2.971636] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/description/camera.xacro\n'}
+[2.975127] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/description/depth_camera.xacro\n'}
+[2.977025] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/description/face.xacro\n'}
+[2.979941] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/description/gazebo_control.xacro\n'}
+[2.981410] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/description/inertial_macros.xacro\n'}
+[2.983595] (sllidar_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.986017] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/description/lidar.xacro\n'}
+[2.991964] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[2.993373] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/description/robot_core.xacro\n'}
+[2.997066] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/description/ros2_control.xacro\n'}
+[3.001140] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py\n'}
+[3.004165] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/camera.launch.py\n'}
+[3.008395] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/joystick.launch.py\n'}
+[3.011893] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py\n'}
+[3.016890] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py\n'}
+[3.020525] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/localization_launch.py\n'}
+[3.024344] (-) TimerEvent: {}
+[3.026056] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/navigation_launch.py\n'}
+[3.032829] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/online_async_launch.py\n'}
+[3.036773] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/rplidar.launch.py\n'}
+[3.039907] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[3.047762] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/worlds/empty.world\n'}
+[3.050521] (sllidar_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.054009] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/worlds/obstacles.world\n'}
+[3.055750] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[3.058819] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[3.064631] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[3.067322] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[3.070012] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[3.073452] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[3.073858] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[3.076912] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[3.083401] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[3.084461] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[3.085344] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/package.dsv\n'}
+[3.124513] (-) TimerEvent: {}
+[3.133022] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[3.135547] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[3.137458] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[3.138492] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/package.xml\n'}
+[3.145999] (articubot_one) CommandEnded: {'returncode': 0}
+[3.224693] (-) TimerEvent: {}
+[3.325523] (-) TimerEvent: {}
+[3.426494] (-) TimerEvent: {}
+[3.489439] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.513973] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.526675] (-) TimerEvent: {}
+[3.541475] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[3.587139] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.626912] (-) TimerEvent: {}
+[3.649603] (robot_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[3.685260] (sllidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.688993] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.727104] (-) TimerEvent: {}
+[3.797764] (sllidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.827316] (-) TimerEvent: {}
+[3.928706] (-) TimerEvent: {}
+[4.029816] (-) TimerEvent: {}
+[4.126422] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.129993] (-) TimerEvent: {}
+[4.162029] (robot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.162741] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.163726] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.181028] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.202932] (sllidar_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.219831] (sllidar_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.230188] (-) TimerEvent: {}
+[4.331673] (-) TimerEvent: {}
+[4.433290] (-) TimerEvent: {}
+[4.441594] (encoder) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/robotrodeo/capstone/build/encoder/build'], 'cwd': '/home/robotrodeo/capstone/build/encoder', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'robotrodeo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robotrodeo', 'OLDPWD': '/home/robotrodeo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1725', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robotrodeo/capstone/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robotrodeo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robotrodeo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/robotrodeo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robotrodeo-desktop:@/tmp/.ICE-unix/1678,unix/robotrodeo-desktop:/tmp/.ICE-unix/1678', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e6a31682_fe55_4a89_a009_914b0cc63815', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5I7421', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/articubot_one:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robotrodeo/capstone/build/encoder', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robotrodeo/capstone/build/encoder/prefix_override:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:/home/robotrodeo/capstone/build/encoder:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/articubot_one'}, 'shell': False}
+[4.533476] (-) TimerEvent: {}
+[4.634859] (-) TimerEvent: {}
+[4.699036] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.727500] (robot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.728662] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.730482] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.735023] (-) TimerEvent: {}
+[4.771747] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.835309] (-) TimerEvent: {}
+[4.936173] (-) TimerEvent: {}
+[5.044568] (-) TimerEvent: {}
+[5.145720] (-) TimerEvent: {}
+[5.248014] (-) TimerEvent: {}
+[5.351471] (-) TimerEvent: {}
+[5.453292] (-) TimerEvent: {}
+[5.554181] (-) TimerEvent: {}
+[5.654472] (sllidar_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.655184] (-) TimerEvent: {}
+[5.756427] (-) TimerEvent: {}
+[5.847252] (robot_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[5.856633] (-) TimerEvent: {}
+[5.957454] (-) TimerEvent: {}
+[6.006156] (encoder) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[6.007265] (encoder) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.057685] (-) TimerEvent: {}
+[6.151900] (encoder) StdoutLine: {'line': b'running develop\n'}
+[6.156785] (encoder) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.157484] (encoder) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.158185] (-) TimerEvent: {}
+[6.164868] (encoder) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.165786] (encoder) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.258396] (-) TimerEvent: {}
+[6.359168] (-) TimerEvent: {}
+[6.459971] (-) TimerEvent: {}
+[6.545974] (sllidar_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[6.560155] (-) TimerEvent: {}
+[6.585543] (encoder) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[6.586196] (encoder) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.591633] (encoder) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[6.593341] (encoder) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.648767] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.660377] (-) TimerEvent: {}
+[6.691839] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.760567] (-) TimerEvent: {}
+[6.782946] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.860753] (-) TimerEvent: {}
+[6.961999] (-) TimerEvent: {}
+[7.063240] (-) TimerEvent: {}
+[7.147707] (sllidar_ros2) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[7.163493] (-) TimerEvent: {}
+[7.218545] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.263666] (-) TimerEvent: {}
+[7.296813] (encoder) StdoutLine: {'line': b'Removing /home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages/encoder.egg-link (link to .)\n'}
+[7.364085] (-) TimerEvent: {}
+[7.466601] (-) TimerEvent: {}
+[7.480755] (encoder) CommandEnded: {'returncode': 0}
+[7.491304] (encoder) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/encoder', 'build', '--build-base', '/home/robotrodeo/capstone/build/encoder/build', 'install', '--record', '/home/robotrodeo/capstone/build/encoder/install.log', '--install-scripts', '$base/lib/encoder', '--single-version-externally-managed'], 'cwd': '/home/robotrodeo/capstone/src/encoder', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'robotrodeo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robotrodeo', 'OLDPWD': '/home/robotrodeo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1725', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robotrodeo/capstone/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robotrodeo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robotrodeo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/robotrodeo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robotrodeo-desktop:@/tmp/.ICE-unix/1678,unix/robotrodeo-desktop:/tmp/.ICE-unix/1678', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e6a31682_fe55_4a89_a009_914b0cc63815', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5I7421', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/articubot_one:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robotrodeo/capstone/build/encoder', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robotrodeo/capstone/build/encoder/prefix_override:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:/home/robotrodeo/capstone/build/encoder:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/articubot_one'}, 'shell': False}
+[7.566816] (-) TimerEvent: {}
+[7.668467] (-) TimerEvent: {}
+[7.757157] (sllidar_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.776195] (-) TimerEvent: {}
+[7.877146] (-) TimerEvent: {}
+[7.898373] (sllidar_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[7.912580] (sllidar_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/robotrodeo/capstone/build/sllidar_ros2\n'}
+[7.957552] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[7.960301] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[7.970834] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotrodeo/capstone/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/robotrodeo/capstone/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'robotrodeo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotrodeo'), ('OLDPWD', '/home/robotrodeo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1725'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robotrodeo/capstone/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotrodeo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotrodeo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robotrodeo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotrodeo-desktop:@/tmp/.ICE-unix/1678,unix/robotrodeo-desktop:/tmp/.ICE-unix/1678'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e6a31682_fe55_4a89_a009_914b0cc63815'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5I7421'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotrodeo/capstone/build/sllidar_ros2'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotrodeo/capstone/build/encoder:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/articubot_one:/home/robotrodeo/capstone/install/encoder:/opt/ros/humble')]), 'shell': False}
+[7.978481] (-) TimerEvent: {}
+[8.080725] (-) TimerEvent: {}
+[8.182024] (-) TimerEvent: {}
+[8.192384] (sllidar_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sllidar_client\x1b[0m\n'}
+[8.217927] (sllidar_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sllidar_node\x1b[0m\n'}
+[8.282250] (-) TimerEvent: {}
+[8.388524] (-) TimerEvent: {}
+[8.426747] (sllidar_ros2) StdoutLine: {'line': b'[ 42%] Built target sllidar_client\n'}
+[8.427602] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[8.472978] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[8.488824] (-) TimerEvent: {}
+[8.591052] (-) TimerEvent: {}
+[8.693009] (-) TimerEvent: {}
+[8.793828] (-) TimerEvent: {}
+[8.860674] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[8.861828] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotrodeo/capstone/build/sllidar_ros2'], 'cwd': '/home/robotrodeo/capstone/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'robotrodeo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotrodeo'), ('OLDPWD', '/home/robotrodeo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1725'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robotrodeo/capstone/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotrodeo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotrodeo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robotrodeo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotrodeo-desktop:@/tmp/.ICE-unix/1678,unix/robotrodeo-desktop:/tmp/.ICE-unix/1678'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e6a31682_fe55_4a89_a009_914b0cc63815'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5I7421'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotrodeo/capstone/build/sllidar_ros2'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotrodeo/capstone/build/encoder:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/articubot_one:/home/robotrodeo/capstone/install/encoder:/opt/ros/humble')]), 'shell': False}
+[8.894131] (-) TimerEvent: {}
+[8.905981] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.908385] (sllidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.916823] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[8.920299] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py\n'}
+[8.928717] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[8.929418] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[8.929938] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[8.930747] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[8.931348] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[8.932586] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[8.934540] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py\n'}
+[8.940440] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[8.941126] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[8.942320] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[8.943965] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[8.945966] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[8.950367] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[8.953042] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[8.954470] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[8.956425] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[8.959964] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[8.962439] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[8.963923] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[8.966098] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[8.967743] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[8.971888] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[8.975565] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[8.979362] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[8.981802] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[8.983370] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[8.994327] (-) TimerEvent: {}
+[9.030441] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[9.033066] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.046509] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.047872] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[9.051076] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[9.054900] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[9.065620] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[9.094834] (-) TimerEvent: {}
+[9.189057] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[9.195010] (-) TimerEvent: {}
+[9.245010] (encoder) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[9.245680] (encoder) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.287441] (encoder) StdoutLine: {'line': b'running egg_info\n'}
+[9.290552] (encoder) StdoutLine: {'line': b'writing ../../build/encoder/encoder.egg-info/PKG-INFO\n'}
+[9.291858] (encoder) StdoutLine: {'line': b'writing dependency_links to ../../build/encoder/encoder.egg-info/dependency_links.txt\n'}
+[9.293256] (encoder) StdoutLine: {'line': b'writing entry points to ../../build/encoder/encoder.egg-info/entry_points.txt\n'}
+[9.294304] (encoder) StdoutLine: {'line': b'writing requirements to ../../build/encoder/encoder.egg-info/requires.txt\n'}
+[9.295113] (encoder) StdoutLine: {'line': b'writing top-level names to ../../build/encoder/encoder.egg-info/top_level.txt\n'}
+[9.295620] (-) TimerEvent: {}
+[9.306294] (encoder) StdoutLine: {'line': b"reading manifest file '../../build/encoder/encoder.egg-info/SOURCES.txt'\n"}
+[9.312029] (encoder) StdoutLine: {'line': b"writing manifest file '../../build/encoder/encoder.egg-info/SOURCES.txt'\n"}
+[9.313139] (encoder) StdoutLine: {'line': b'running build\n'}
+[9.313875] (encoder) StdoutLine: {'line': b'running build_py\n'}
+[9.315711] (encoder) StdoutLine: {'line': b'creating /home/robotrodeo/capstone/build/encoder/build\n'}
+[9.316452] (encoder) StdoutLine: {'line': b'creating /home/robotrodeo/capstone/build/encoder/build/lib\n'}
+[9.317319] (encoder) StdoutLine: {'line': b'creating /home/robotrodeo/capstone/build/encoder/build/lib/encoder\n'}
+[9.318059] (encoder) StdoutLine: {'line': b'copying encoder/motor_encoder_original.py -> /home/robotrodeo/capstone/build/encoder/build/lib/encoder\n'}
+[9.318710] (encoder) StdoutLine: {'line': b'copying encoder/__init__.py -> /home/robotrodeo/capstone/build/encoder/build/lib/encoder\n'}
+[9.320044] (encoder) StdoutLine: {'line': b'copying encoder/motor_encoder.py -> /home/robotrodeo/capstone/build/encoder/build/lib/encoder\n'}
+[9.320693] (encoder) StdoutLine: {'line': b'running install\n'}
+[9.321937] (encoder) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.322499] (encoder) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.322950] (encoder) StdoutLine: {'line': b'running install_lib\n'}
+[9.325595] (encoder) StdoutLine: {'line': b'creating /home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages/encoder\n'}
+[9.329548] (encoder) StdoutLine: {'line': b'copying /home/robotrodeo/capstone/build/encoder/build/lib/encoder/motor_encoder_original.py -> /home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages/encoder\n'}
+[9.330040] (encoder) StdoutLine: {'line': b'copying /home/robotrodeo/capstone/build/encoder/build/lib/encoder/__init__.py -> /home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages/encoder\n'}
+[9.330448] (encoder) StdoutLine: {'line': b'copying /home/robotrodeo/capstone/build/encoder/build/lib/encoder/motor_encoder.py -> /home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages/encoder\n'}
+[9.332517] (encoder) StdoutLine: {'line': b'byte-compiling /home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages/encoder/motor_encoder_original.py to motor_encoder_original.cpython-310.pyc\n'}
+[9.335911] (encoder) StdoutLine: {'line': b'byte-compiling /home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages/encoder/__init__.py to __init__.cpython-310.pyc\n'}
+[9.337363] (encoder) StdoutLine: {'line': b'byte-compiling /home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages/encoder/motor_encoder.py to motor_encoder.cpython-310.pyc\n'}
+[9.340672] (encoder) StdoutLine: {'line': b'running install_data\n'}
+[9.344323] (encoder) StdoutLine: {'line': b'copying resource/encoder -> /home/robotrodeo/capstone/install/encoder/share/ament_index/resource_index/packages\n'}
+[9.345355] (encoder) StdoutLine: {'line': b'copying package.xml -> /home/robotrodeo/capstone/install/encoder/share/encoder\n'}
+[9.346365] (encoder) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.355274] (encoder) StdoutLine: {'line': b'Copying ../../build/encoder/encoder.egg-info to /home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages/encoder-0.0.0-py3.10.egg-info\n'}
+[9.363374] (encoder) StdoutLine: {'line': b'running install_scripts\n'}
+[9.395892] (-) TimerEvent: {}
+[9.469362] (encoder) StdoutLine: {'line': b'Installing motor_encoder script to /home/robotrodeo/capstone/install/encoder/lib/encoder\n'}
+[9.472748] (encoder) StdoutLine: {'line': b"writing list of installed files to '/home/robotrodeo/capstone/build/encoder/install.log'\n"}
+[9.496358] (-) TimerEvent: {}
+[9.612674] (-) TimerEvent: {}
+[9.641133] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[9.656167] (encoder) CommandEnded: {'returncode': 0}
+[9.713339] (-) TimerEvent: {}
+[9.721118] (encoder) JobEnded: {'identifier': 'encoder', 'rc': 0}
+[9.813527] (-) TimerEvent: {}
+[9.914366] (-) TimerEvent: {}
+[10.015463] (-) TimerEvent: {}
+[10.116199] (-) TimerEvent: {}
+[10.217117] (-) TimerEvent: {}
+[10.318016] (-) TimerEvent: {}
+[10.331238] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.418200] (-) TimerEvent: {}
+[10.518894] (-) TimerEvent: {}
+[10.619753] (-) TimerEvent: {}
+[10.720876] (-) TimerEvent: {}
+[10.821604] (-) TimerEvent: {}
+[10.922437] (-) TimerEvent: {}
+[11.023390] (-) TimerEvent: {}
+[11.124617] (-) TimerEvent: {}
+[11.225492] (-) TimerEvent: {}
+[11.326237] (-) TimerEvent: {}
+[11.427162] (-) TimerEvent: {}
+[11.515266] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.527401] (-) TimerEvent: {}
+[11.628454] (-) TimerEvent: {}
+[11.637055] (robot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[11.671350] (robot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[11.728601] (-) TimerEvent: {}
+[11.817510] (robot_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[11.818521] (robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.819076] (robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[11.819569] (robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[11.828828] (-) TimerEvent: {}
+[11.929700] (-) TimerEvent: {}
+[11.932844] (robot_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[12.029861] (-) TimerEvent: {}
+[12.130552] (-) TimerEvent: {}
+[12.156478] (robot_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.230765] (-) TimerEvent: {}
+[12.331557] (-) TimerEvent: {}
+[12.423168] (robot_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[12.431713] (-) TimerEvent: {}
+[12.447280] (robot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/robotrodeo/capstone/build/robot_interfaces\n'}
+[12.485586] (robot_interfaces) CommandEnded: {'returncode': 0}
+[12.487671] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'build'}
+[12.488887] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotrodeo/capstone/build/robot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/robotrodeo/capstone/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'robotrodeo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotrodeo'), ('OLDPWD', '/home/robotrodeo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1725'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robotrodeo/capstone/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotrodeo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotrodeo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robotrodeo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotrodeo-desktop:@/tmp/.ICE-unix/1678,unix/robotrodeo-desktop:/tmp/.ICE-unix/1678'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e6a31682_fe55_4a89_a009_914b0cc63815'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5I7421'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotrodeo/capstone/build/robot_interfaces'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotrodeo/capstone/build/encoder:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/articubot_one:/home/robotrodeo/capstone/install/encoder:/opt/ros/humble')]), 'shell': False}
+[12.531953] (-) TimerEvent: {}
+[12.632827] (-) TimerEvent: {}
+[12.679046] (robot_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[12.716186] (robot_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[12.733015] (-) TimerEvent: {}
+[12.757720] (robot_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_robot_interfaces\n'}
+[12.833215] (-) TimerEvent: {}
+[12.934140] (-) TimerEvent: {}
+[13.035273] (-) TimerEvent: {}
+[13.136177] (-) TimerEvent: {}
+[13.237762] (-) TimerEvent: {}
+[13.339222] (-) TimerEvent: {}
+[13.440566] (-) TimerEvent: {}
+[13.546322] (-) TimerEvent: {}
+[13.647195] (-) TimerEvent: {}
+[13.747932] (-) TimerEvent: {}
+[13.848716] (-) TimerEvent: {}
+[13.949606] (-) TimerEvent: {}
+[14.051821] (-) TimerEvent: {}
+[14.154039] (-) TimerEvent: {}
+[14.166205] (robot_interfaces) StdoutLine: {'line': b'[  6%] Built target robot_interfaces__cpp\n'}
+[14.213735] (robot_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.220611] (robot_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[14.254271] (-) TimerEvent: {}
+[14.344615] (robot_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/encoder_data__functions.c.o\x1b[0m\n'}
+[14.354608] (-) TimerEvent: {}
+[14.455598] (-) TimerEvent: {}
+[14.556964] (-) TimerEvent: {}
+[14.583419] (robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[14.593163] (robot_interfaces) StdoutLine: {'line': b'creating robot_interfaces.egg-info\n'}
+[14.595372] (robot_interfaces) StdoutLine: {'line': b'writing robot_interfaces.egg-info/PKG-INFO\n'}
+[14.597751] (robot_interfaces) StdoutLine: {'line': b'writing dependency_links to robot_interfaces.egg-info/dependency_links.txt\n'}
+[14.601027] (robot_interfaces) StdoutLine: {'line': b'writing top-level names to robot_interfaces.egg-info/top_level.txt\n'}
+[14.603315] (robot_interfaces) StdoutLine: {'line': b"writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[14.618938] (robot_interfaces) StdoutLine: {'line': b"reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[14.623528] (robot_interfaces) StdoutLine: {'line': b"writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[14.657220] (-) TimerEvent: {}
+[14.758478] (-) TimerEvent: {}
+[14.826953] (robot_interfaces) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_build_robot_interfaces_egg\n'}
+[14.836406] (robot_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library librobot_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[14.858716] (-) TimerEvent: {}
+[14.881911] (robot_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.959030] (-) TimerEvent: {}
+[15.060633] (-) TimerEvent: {}
+[15.077065] (robot_interfaces) StdoutLine: {'line': b'[ 22%] Built target robot_interfaces__rosidl_generator_c\n'}
+[15.134598] (robot_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.160834] (-) TimerEvent: {}
+[15.262285] (-) TimerEvent: {}
+[15.363451] (-) TimerEvent: {}
+[15.464556] (-) TimerEvent: {}
+[15.565868] (-) TimerEvent: {}
+[15.667684] (-) TimerEvent: {}
+[15.769675] (-) TimerEvent: {}
+[15.855721] (robot_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/encoder_data__type_support.cpp.o\x1b[0m\n'}
+[15.864489] (robot_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/msg/detail/dds_fastrtps/encoder_data__type_support.cpp.o\x1b[0m\n'}
+[15.869863] (-) TimerEvent: {}
+[15.970929] (-) TimerEvent: {}
+[16.071796] (-) TimerEvent: {}
+[16.172776] (-) TimerEvent: {}
+[16.274208] (-) TimerEvent: {}
+[16.349907] (robot_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/msg/encoder_data__type_support.cpp.o\x1b[0m\n'}
+[16.374438] (-) TimerEvent: {}
+[16.476004] (-) TimerEvent: {}
+[16.577797] (-) TimerEvent: {}
+[16.679255] (-) TimerEvent: {}
+[16.722678] (robot_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/msg/detail/encoder_data__type_support_c.cpp.o\x1b[0m\n'}
+[16.779573] (-) TimerEvent: {}
+[16.881196] (-) TimerEvent: {}
+[16.982894] (-) TimerEvent: {}
+[17.084592] (-) TimerEvent: {}
+[17.186376] (-) TimerEvent: {}
+[17.288682] (-) TimerEvent: {}
+[17.390606] (-) TimerEvent: {}
+[17.524326] (-) TimerEvent: {}
+[17.625558] (-) TimerEvent: {}
+[17.727015] (-) TimerEvent: {}
+[17.828537] (-) TimerEvent: {}
+[17.929831] (-) TimerEvent: {}
+[18.031231] (-) TimerEvent: {}
+[18.132645] (-) TimerEvent: {}
+[18.233800] (-) TimerEvent: {}
+[18.335438] (-) TimerEvent: {}
+[18.390035] (robot_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[18.435725] (-) TimerEvent: {}
+[18.536855] (-) TimerEvent: {}
+[18.638009] (-) TimerEvent: {}
+[18.651046] (robot_interfaces) StdoutLine: {'line': b'[ 41%] Built target robot_interfaces__rosidl_typesupport_cpp\n'}
+[18.712816] (robot_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[18.740350] (-) TimerEvent: {}
+[18.841616] (-) TimerEvent: {}
+[18.845851] (robot_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[18.910794] (robot_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[18.942051] (-) TimerEvent: {}
+[19.043156] (-) TimerEvent: {}
+[19.101085] (robot_interfaces) StdoutLine: {'line': b'[ 51%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[19.143443] (-) TimerEvent: {}
+[19.185101] (robot_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[19.243698] (-) TimerEvent: {}
+[19.345295] (-) TimerEvent: {}
+[19.390689] (robot_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[19.419557] (robot_interfaces) StdoutLine: {'line': b'[ 58%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[19.445501] (-) TimerEvent: {}
+[19.546301] (-) TimerEvent: {}
+[19.647247] (-) TimerEvent: {}
+[19.748065] (-) TimerEvent: {}
+[19.813624] (robot_interfaces) StdoutLine: {'line': b'[ 58%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[19.848344] (-) TimerEvent: {}
+[19.949511] (-) TimerEvent: {}
+[20.050452] (-) TimerEvent: {}
+[20.151323] (-) TimerEvent: {}
+[20.252969] (-) TimerEvent: {}
+[20.277220] (robot_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/msg/detail/encoder_data__type_support.c.o\x1b[0m\n'}
+[20.353345] (-) TimerEvent: {}
+[20.454307] (-) TimerEvent: {}
+[20.468172] (robot_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/msg/encoder_data__type_support.cpp.o\x1b[0m\n'}
+[20.485461] (robot_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking C shared library librobot_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[20.554592] (-) TimerEvent: {}
+[20.622105] (robot_interfaces) StdoutLine: {'line': b'[ 67%] Built target robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[20.631127] (robot_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[20.654845] (-) TimerEvent: {}
+[20.755721] (-) TimerEvent: {}
+[20.799475] (robot_interfaces) StdoutLine: {'line': b'[ 70%] Built target robot_interfaces__rosidl_typesupport_c\n'}
+[20.855947] (-) TimerEvent: {}
+[20.890322] (robot_interfaces) StdoutLine: {'line': b'[ 70%] Built target robot_interfaces\n'}
+[20.956292] (-) TimerEvent: {}
+[20.982737] (robot_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[21.056428] (-) TimerEvent: {}
+[21.157125] (-) TimerEvent: {}
+[21.257850] (-) TimerEvent: {}
+[21.358941] (-) TimerEvent: {}
+[21.459628] (-) TimerEvent: {}
+[21.560441] (-) TimerEvent: {}
+[21.661115] (-) TimerEvent: {}
+[21.761798] (-) TimerEvent: {}
+[21.862473] (-) TimerEvent: {}
+[21.963183] (-) TimerEvent: {}
+[22.063925] (-) TimerEvent: {}
+[22.164787] (-) TimerEvent: {}
+[22.266392] (-) TimerEvent: {}
+[22.354115] (robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target robot_interfaces__py\n'}
+[22.366564] (-) TimerEvent: {}
+[22.448327] (robot_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/msg/_encoder_data_s.c.o\x1b[0m\n'}
+[22.466836] (-) TimerEvent: {}
+[22.567927] (-) TimerEvent: {}
+[22.668692] (-) TimerEvent: {}
+[22.769481] (-) TimerEvent: {}
+[22.870511] (-) TimerEvent: {}
+[22.971359] (-) TimerEvent: {}
+[23.062741] (robot_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_interfaces/librobot_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[23.071632] (-) TimerEvent: {}
+[23.172456] (-) TimerEvent: {}
+[23.261384] (robot_interfaces) StdoutLine: {'line': b'[ 80%] Built target robot_interfaces__rosidl_generator_py\n'}
+[23.272646] (-) TimerEvent: {}
+[23.362853] (robot_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[23.371290] (robot_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[23.372766] (robot_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[23.374033] (-) TimerEvent: {}
+[23.475723] (-) TimerEvent: {}
+[23.576546] (-) TimerEvent: {}
+[23.677469] (-) TimerEvent: {}
+[23.778464] (-) TimerEvent: {}
+[23.855064] (robot_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[23.859899] (robot_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[23.878795] (-) TimerEvent: {}
+[23.924078] (robot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[23.979377] (-) TimerEvent: {}
+[24.046576] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[24.062494] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[24.079569] (-) TimerEvent: {}
+[24.125096] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[24.169034] (robot_interfaces) CommandEnded: {'returncode': 0}
+[24.179901] (-) TimerEvent: {}
+[24.280638] (-) TimerEvent: {}
+[24.381339] (-) TimerEvent: {}
+[24.482033] (-) TimerEvent: {}
+[24.507846] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'install'}
+[24.511598] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotrodeo/capstone/build/robot_interfaces'], 'cwd': '/home/robotrodeo/capstone/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'robotrodeo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotrodeo'), ('OLDPWD', '/home/robotrodeo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1725'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robotrodeo/capstone/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotrodeo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotrodeo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robotrodeo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotrodeo-desktop:@/tmp/.ICE-unix/1678,unix/robotrodeo-desktop:/tmp/.ICE-unix/1678'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e6a31682_fe55_4a89_a009_914b0cc63815'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5I7421'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotrodeo/capstone/build/robot_interfaces'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotrodeo/capstone/build/encoder:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/articubot_one:/home/robotrodeo/capstone/install/encoder:/opt/ros/humble')]), 'shell': False}
+[24.547434] (robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.549289] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces\n'}
+[24.551217] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[24.552102] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[24.552715] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail\n'}
+[24.553380] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__functions.h\n'}
+[24.554663] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__struct.h\n'}
+[24.555718] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__type_support.h\n'}
+[24.556907] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__functions.c\n'}
+[24.558138] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[24.559201] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/encoder_data.h\n'}
+[24.560771] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh\n'}
+[24.562099] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv\n'}
+[24.563645] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so\n'}
+[24.566064] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so" to ""\n'}
+[24.566642] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[24.567059] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[24.567451] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail\n'}
+[24.567825] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__rosidl_typesupport_fastrtps_c.h\n'}
+[24.569108] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[24.570586] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[24.573165] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[24.573692] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[24.574069] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[24.574437] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail\n'}
+[24.574805] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__rosidl_typesupport_introspection_c.h\n'}
+[24.575978] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__type_support.c\n'}
+[24.577378] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[24.579018] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[24.581356] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[24.581851] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so\n'}
+[24.582186] (-) TimerEvent: {}
+[24.584149] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[24.584737] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[24.585190] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[24.585488] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail\n'}
+[24.585860] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__struct.hpp\n'}
+[24.587162] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__builder.hpp\n'}
+[24.588351] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__traits.hpp\n'}
+[24.589636] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/encoder_data.hpp\n'}
+[24.590759] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[24.591276] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[24.591661] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail\n'}
+[24.592042] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/dds_fastrtps\n'}
+[24.592722] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.594225] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[24.595789] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[24.598390] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[24.598927] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[24.599323] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[24.599744] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail\n'}
+[24.600123] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__type_support.cpp\n'}
+[24.601223] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.602751] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[24.605309] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[24.605862] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so\n'}
+[24.607955] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[24.608472] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh\n'}
+[24.609838] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv\n'}
+[24.611086] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info\n'}
+[24.612953] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[24.615177] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[24.615799] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[24.616772] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[24.618067] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces\n'}
+[24.618939] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[24.621656] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[24.622731] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[24.624022] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/librobot_interfaces__rosidl_generator_py.so\n'}
+[24.625360] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py\n'}
+[24.626370] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[24.627798] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[24.629239] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[24.630391] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg\n'}
+[24.631120] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/__init__.py\n'}
+[24.632257] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_encoder_data_s.c\n'}
+[24.633444] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_encoder_data.py\n'}
+[24.682378] (-) TimerEvent: {}
+[24.783042] (-) TimerEvent: {}
+[24.797416] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces'...\n"}
+[24.798708] (robot_interfaces) StdoutLine: {'line': b"Compiling '/home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py'...\n"}
+[24.799709] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg'...\n"}
+[24.800817] (robot_interfaces) StdoutLine: {'line': b"Compiling '/home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/__init__.py'...\n"}
+[24.801826] (robot_interfaces) StdoutLine: {'line': b"Compiling '/home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_encoder_data.py'...\n"}
+[24.827224] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[24.830287] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[24.831907] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[24.835130] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[24.836843] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[24.839837] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[24.840464] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so\n'}
+[24.842875] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so" to ""\n'}
+[24.843504] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/msg/EncoderData.idl\n'}
+[24.844886] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/msg/EncoderData.msg\n'}
+[24.846643] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces\n'}
+[24.848255] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces\n'}
+[24.849562] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh\n'}
+[24.850732] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[24.851910] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/environment/path.sh\n'}
+[24.853159] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/environment/path.dsv\n'}
+[24.854260] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/local_setup.bash\n'}
+[24.855442] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/local_setup.sh\n'}
+[24.856723] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/local_setup.zsh\n'}
+[24.857897] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/local_setup.dsv\n'}
+[24.858990] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/package.dsv\n'}
+[24.860559] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces\n'}
+[24.862325] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[24.863737] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[24.865392] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[24.866862] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[24.868512] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[24.870024] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[24.871508] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[24.872948] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[24.874421] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[24.875913] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[24.877513] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[24.879190] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[24.880798] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[24.882329] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[24.883142] (-) TimerEvent: {}
+[24.883728] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[24.885469] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[24.886918] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[24.888299] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[24.889551] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.890874] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.892246] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[24.893520] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[24.895061] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.896553] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[24.897835] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake\n'}
+[24.898852] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake\n'}
+[24.900043] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/package.xml\n'}
+[24.907135] (robot_interfaces) CommandEnded: {'returncode': 0}
+[24.983442] (-) TimerEvent: {}
+[25.084171] (-) TimerEvent: {}
+[25.184960] (-) TimerEvent: {}
+[25.286275] (-) TimerEvent: {}
+[25.391398] (-) TimerEvent: {}
+[25.405608] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 0}
+[25.408567] (-) EventReactorShutdown: {}

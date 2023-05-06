@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating encoder.egg-info
+writing encoder.egg-info/PKG-INFO
+writing dependency_links to encoder.egg-info/dependency_links.txt
+writing entry points to encoder.egg-info/entry_points.txt
+writing requirements to encoder.egg-info/requires.txt
+writing top-level names to encoder.egg-info/top_level.txt
+writing manifest file 'encoder.egg-info/SOURCES.txt'
+reading manifest file 'encoder.egg-info/SOURCES.txt'
+writing manifest file 'encoder.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages/encoder.egg-link (link to .)
+Installing motor_encoder script to /home/robotrodeo/capstone/install/encoder/lib/encoder
+
+Installed /home/robotrodeo/capstone/build/encoder
+running install_data
+creating /home/robotrodeo/capstone/install/encoder/share/ament_index
+creating /home/robotrodeo/capstone/install/encoder/share/ament_index/resource_index
+creating /home/robotrodeo/capstone/install/encoder/share/ament_index/resource_index/packages
+copying resource/encoder -> /home/robotrodeo/capstone/install/encoder/share/ament_index/resource_index/packages
+copying package.xml -> /home/robotrodeo/capstone/install/encoder/share/encoder

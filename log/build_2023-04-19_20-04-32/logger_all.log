@@ -1,0 +1,326 @@
+[1.734s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.735s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9d0d7490>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9d98cbe0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9d98cbe0>>)
+[1.970s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.971s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.971s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.971s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.971s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.971s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.971s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robotrodeo/capstone'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.027s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.027s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.027s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.027s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.027s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.028s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.028s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.030s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.030s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.030s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore_ament_install'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_pkg']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_pkg'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_meta']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_meta'
+[2.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ros']
+[2.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ros'
+[2.048s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extensions ['ignore', 'ignore_ament_install']
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extension 'ignore'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extension 'ignore_ament_install'
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extensions ['colcon_pkg']
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extension 'colcon_pkg'
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extensions ['colcon_meta']
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extension 'colcon_meta'
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extensions ['ros']
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extension 'ros'
+[2.054s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drivetrain' with type 'ros.ament_python' and name 'drivetrain'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder) by extensions ['ignore', 'ignore_ament_install']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder) by extension 'ignore'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder) by extension 'ignore_ament_install'
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder) by extensions ['colcon_pkg']
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder) by extension 'colcon_pkg'
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder) by extensions ['colcon_meta']
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder) by extension 'colcon_meta'
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder) by extensions ['ros']
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder) by extension 'ros'
+[2.060s] DEBUG:colcon.colcon_core.package_identification:Package 'src/encoder' with type 'ros.ament_python' and name 'encoder'
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ignore'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ignore_ament_install'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['colcon_pkg']
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'colcon_pkg'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['colcon_meta']
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'colcon_meta'
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['ros']
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ros'
+[2.066s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_interfaces' with type 'ros.ament_cmake' and name 'robot_interfaces'
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo) by extensions ['ignore', 'ignore_ament_install']
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo) by extension 'ignore'
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo) by extension 'ignore_ament_install'
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo) by extensions ['colcon_pkg']
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo) by extension 'colcon_pkg'
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo) by extensions ['colcon_meta']
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo) by extension 'colcon_meta'
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo) by extensions ['ros']
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo) by extension 'ros'
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo) by extensions ['cmake', 'python']
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo) by extension 'cmake'
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo) by extension 'python'
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo) by extensions ['python_setup_py']
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo) by extension 'python_setup_py'
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo/launch) by extensions ['ignore', 'ignore_ament_install']
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo/launch) by extension 'ignore'
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo/launch) by extension 'ignore_ament_install'
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo/launch) by extensions ['colcon_pkg']
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo/launch) by extension 'colcon_pkg'
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo/launch) by extensions ['colcon_meta']
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo/launch) by extension 'colcon_meta'
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo/launch) by extensions ['ros']
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo/launch) by extension 'ros'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo/launch) by extensions ['cmake', 'python']
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo/launch) by extension 'cmake'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo/launch) by extension 'python'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo/launch) by extensions ['python_setup_py']
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_demo/launch) by extension 'python_setup_py'
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[2.079s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[2.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.257s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/robotrodeo/capstone/install
+[2.272s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 364 installed packages in /opt/ros/humble
+[2.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.595s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.596s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotrodeo/capstone/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotrodeo/capstone/install/articubot_one', 'merge_install': False, 'path': '/home/robotrodeo/capstone/src/articubot_one', 'symlink_install': True, 'test_result_base': None}
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_args' from command line to 'None'
+[2.601s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_target' from command line to 'None'
+[2.601s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.601s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_clean_cache' from command line to 'False'
+[2.601s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_clean_first' from command line to 'False'
+[2.601s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_force_configure' from command line to 'False'
+[2.601s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'ament_cmake_args' from command line to 'None'
+[2.601s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'catkin_cmake_args' from command line to 'None'
+[2.601s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.602s] DEBUG:colcon.colcon_core.verb:Building package 'drivetrain' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotrodeo/capstone/build/drivetrain', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotrodeo/capstone/install/drivetrain', 'merge_install': False, 'path': '/home/robotrodeo/capstone/src/drivetrain', 'symlink_install': True, 'test_result_base': None}
+[2.606s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.606s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.606s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.606s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.606s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.606s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.606s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.606s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.607s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.607s] DEBUG:colcon.colcon_core.verb:Building package 'robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotrodeo/capstone/build/robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotrodeo/capstone/install/robot_interfaces', 'merge_install': False, 'path': '/home/robotrodeo/capstone/src/robot_interfaces', 'symlink_install': True, 'test_result_base': None}
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[2.612s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.612s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.612s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotrodeo/capstone/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotrodeo/capstone/install/sllidar_ros2', 'merge_install': False, 'path': '/home/robotrodeo/capstone/src/sllidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'encoder' build argument 'cmake_args' from command line to 'None'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'encoder' build argument 'cmake_target' from command line to 'None'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'encoder' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'encoder' build argument 'cmake_clean_cache' from command line to 'False'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'encoder' build argument 'cmake_clean_first' from command line to 'False'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'encoder' build argument 'cmake_force_configure' from command line to 'False'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'encoder' build argument 'ament_cmake_args' from command line to 'None'
+[2.617s] Level 5:colcon.colcon_core.verb:set package 'encoder' build argument 'catkin_cmake_args' from command line to 'None'
+[2.617s] Level 5:colcon.colcon_core.verb:set package 'encoder' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.617s] DEBUG:colcon.colcon_core.verb:Building package 'encoder' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotrodeo/capstone/build/encoder', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotrodeo/capstone/install/encoder', 'merge_install': False, 'path': '/home/robotrodeo/capstone/src/encoder', 'symlink_install': True, 'test_result_base': None}
+[2.620s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.632s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.633s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotrodeo/capstone/src/robot_interfaces' with build type 'ament_cmake'
+[2.634s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotrodeo/capstone/src/robot_interfaces'
+[2.675s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.676s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.676s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.711s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotrodeo/capstone/src/articubot_one' with build type 'ament_cmake'
+[2.711s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotrodeo/capstone/src/articubot_one'
+[2.718s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.718s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.749s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robotrodeo/capstone/src/drivetrain' with build type 'ament_python'
+[2.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('drivetrain', 'ament_prefix_path')
+[2.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/hook/ament_prefix_path.ps1'
+[2.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/hook/ament_prefix_path.dsv'
+[2.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/hook/ament_prefix_path.sh'
+[2.777s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.777s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.806s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotrodeo/capstone/src/sllidar_ros2' with build type 'ament_cmake'
+[2.807s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotrodeo/capstone/src/sllidar_ros2'
+[2.814s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.815s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotrodeo/capstone/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/drivetrain:/opt/ros/humble /usr/bin/cmake /home/robotrodeo/capstone/src/robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotrodeo/capstone/install/robot_interfaces
+[2.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotrodeo/capstone/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/drivetrain:/opt/ros/humble /usr/bin/cmake /home/robotrodeo/capstone/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotrodeo/capstone/install/articubot_one
+[4.638s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robotrodeo/capstone/src/drivetrain'
+[4.644s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.645s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotrodeo/capstone/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/drivetrain:/opt/ros/humble /usr/bin/cmake /home/robotrodeo/capstone/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotrodeo/capstone/install/sllidar_ros2
+[5.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotrodeo/capstone/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/drivetrain:/opt/ros/humble /usr/bin/cmake /home/robotrodeo/capstone/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotrodeo/capstone/install/articubot_one
+[5.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotrodeo/capstone/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/drivetrain:/opt/ros/humble /usr/bin/cmake --build /home/robotrodeo/capstone/build/articubot_one -- -j4 -l4
+[5.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotrodeo/capstone/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/drivetrain:/opt/ros/humble /usr/bin/cmake --build /home/robotrodeo/capstone/build/articubot_one -- -j4 -l4
+[6.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotrodeo/capstone/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/drivetrain:/opt/ros/humble /usr/bin/cmake --install /home/robotrodeo/capstone/build/articubot_one
+[6.584s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[6.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotrodeo/capstone/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/drivetrain:/opt/ros/humble /usr/bin/cmake --install /home/robotrodeo/capstone/build/articubot_one
+[6.668s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/articubot_one' for CMake module files
+[6.682s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/articubot_one' for CMake config files
+[6.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[6.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotrodeo/capstone/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[6.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotrodeo/capstone/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[6.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotrodeo/capstone/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[6.716s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/articubot_one/bin'
+[6.716s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[6.718s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/articubot_one/lib/python3.10/site-packages'
+[6.719s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/articubot_one/bin'
+[6.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/articubot_one/share/articubot_one/package.ps1'
+[6.736s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotrodeo/capstone/install/articubot_one/share/articubot_one/package.dsv'
+[6.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/articubot_one/share/articubot_one/package.sh'
+[6.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/articubot_one/share/articubot_one/package.bash'
+[6.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/articubot_one/share/articubot_one/package.zsh'
+[6.766s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotrodeo/capstone/install/articubot_one/share/colcon-core/packages/articubot_one)
+[7.042s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[7.055s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/articubot_one' for CMake module files
+[7.061s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/articubot_one' for CMake config files
+[7.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[7.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotrodeo/capstone/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[7.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotrodeo/capstone/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[7.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotrodeo/capstone/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[7.087s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/articubot_one/bin'
+[7.088s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[7.091s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/articubot_one/lib/python3.10/site-packages'
+[7.092s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/articubot_one/bin'
+[7.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/articubot_one/share/articubot_one/package.ps1'
+[7.104s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotrodeo/capstone/install/articubot_one/share/articubot_one/package.dsv'
+[7.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/articubot_one/share/articubot_one/package.sh'
+[7.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/articubot_one/share/articubot_one/package.bash'
+[7.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/articubot_one/share/articubot_one/package.zsh'
+[7.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotrodeo/capstone/install/articubot_one/share/colcon-core/packages/articubot_one)
+[8.229s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/robotrodeo/capstone/install/drivetrain/share/ament_index/resource_index/packages/drivetrain
+[8.229s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/robotrodeo/capstone/install/drivetrain/share/drivetrain/package.xml
+[8.233s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/robotrodeo/capstone/install/drivetrain/lib/drivetrain/controller_node
+[8.234s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/robotrodeo/capstone/install/drivetrain/lib/drivetrain/drivetrain_node
+[8.234s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/robotrodeo/capstone/install/drivetrain/lib/drivetrain/tail_node
+[8.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotrodeo/capstone/build/drivetrain': PYTHONPATH=/home/robotrodeo/capstone/build/drivetrain/prefix_override:/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/robotrodeo/capstone/build/drivetrain/build --no-deps install_data
+[11.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotrodeo/capstone/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/drivetrain:/opt/ros/humble /usr/bin/cmake /home/robotrodeo/capstone/src/robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotrodeo/capstone/install/robot_interfaces
+[11.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotrodeo/capstone/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/drivetrain:/opt/ros/humble /usr/bin/cmake --build /home/robotrodeo/capstone/build/robot_interfaces -- -j4 -l4
+[11.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotrodeo/capstone/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/drivetrain:/opt/ros/humble /usr/bin/cmake /home/robotrodeo/capstone/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotrodeo/capstone/install/sllidar_ros2
+[11.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotrodeo/capstone/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/drivetrain:/opt/ros/humble /usr/bin/cmake --build /home/robotrodeo/capstone/build/sllidar_ros2 -- -j4 -l4
+[11.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotrodeo/capstone/build/robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/drivetrain:/opt/ros/humble /usr/bin/cmake --build /home/robotrodeo/capstone/build/robot_interfaces -- -j4 -l4
+[11.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('drivetrain', 'pythonpath_develop')
+[11.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotrodeo/capstone/build/drivetrain/share/drivetrain/hook/pythonpath_develop.ps1'
+[11.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotrodeo/capstone/build/drivetrain' returned '0': PYTHONPATH=/home/robotrodeo/capstone/build/drivetrain/prefix_override:/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/robotrodeo/capstone/build/drivetrain/build --no-deps install_data
+[11.914s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotrodeo/capstone/build/drivetrain/share/drivetrain/hook/pythonpath_develop.dsv'
+[11.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotrodeo/capstone/build/drivetrain/share/drivetrain/hook/pythonpath_develop.sh'
+[11.931s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/drivetrain' for CMake module files
+[11.934s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/drivetrain' for CMake config files
+[11.940s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/drivetrain/lib'
+[11.941s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/drivetrain/bin'
+[11.942s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/drivetrain/lib/pkgconfig/drivetrain.pc'
+[11.943s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages'
+[11.943s] Level 1:colcon.colcon_core.shell:create_environment_hook('drivetrain', 'pythonpath')
+[11.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/hook/pythonpath.ps1'
+[11.952s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/hook/pythonpath.dsv'
+[11.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/hook/pythonpath.sh'
+[11.958s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/drivetrain/bin'
+[11.959s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drivetrain)
+[11.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/package.ps1'
+[11.972s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/package.dsv'
+[11.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/package.sh'
+[11.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/package.bash'
+[11.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/package.zsh'
+[11.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotrodeo/capstone/install/drivetrain/share/colcon-core/packages/drivetrain)
+[12.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotrodeo/capstone/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/drivetrain:/opt/ros/humble /usr/bin/cmake --build /home/robotrodeo/capstone/build/sllidar_ros2 -- -j4 -l4
+[12.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_interfaces)
+[12.081s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/robot_interfaces' for CMake module files
+[12.088s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/robot_interfaces' for CMake config files
+[12.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'cmake_prefix_path')
+[12.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.ps1'
+[12.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.dsv'
+[12.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.sh'
+[12.111s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/robot_interfaces/lib'
+[12.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'ld_library_path_lib')
+[12.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.ps1'
+[12.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.dsv'
+[12.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.sh'
+[12.123s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/robot_interfaces/bin'
+[12.124s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/robot_interfaces/lib/pkgconfig/robot_interfaces.pc'
+[12.125s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/robot_interfaces/lib/python3.10/site-packages'
+[12.126s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/robot_interfaces/bin'
+[12.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/package.ps1'
+[12.134s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/package.dsv'
+[12.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/package.sh'
+[12.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/package.bash'
+[12.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/package.zsh'
+[12.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotrodeo/capstone/install/robot_interfaces/share/colcon-core/packages/robot_interfaces)
+[12.333s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[12.335s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.372s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.373s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.373s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.455s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.464s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotrodeo/capstone/install/local_setup.ps1'
+[12.470s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotrodeo/capstone/install/_local_setup_util_ps1.py'
+[12.478s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotrodeo/capstone/install/setup.ps1'
+[12.488s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotrodeo/capstone/install/local_setup.sh'
+[12.492s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotrodeo/capstone/install/_local_setup_util_sh.py'
+[12.495s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotrodeo/capstone/install/setup.sh'
+[12.506s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotrodeo/capstone/install/local_setup.bash'
+[12.510s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotrodeo/capstone/install/setup.bash'
+[12.519s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotrodeo/capstone/install/local_setup.zsh'
+[12.522s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotrodeo/capstone/install/setup.zsh'

@@ -1,0 +1,383 @@
+[1.825s] Invoking command in '/home/robotrodeo/capstone/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotrodeo/capstone/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotrodeo/capstone/install/sllidar_ros2
+[2.215s] -- The C compiler identification is GNU 11.3.0
+[2.639s] -- The CXX compiler identification is GNU 11.3.0
+[2.681s] -- Detecting C compiler ABI info
+[3.168s] -- Detecting C compiler ABI info - done
+[3.226s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.233s] -- Detecting C compile features
+[3.238s] -- Detecting C compile features - done
+[3.264s] -- Detecting CXX compiler ABI info
+[3.829s] -- Detecting CXX compiler ABI info - done
+[3.867s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.870s] -- Detecting CXX compile features
+[3.872s] -- Detecting CXX compile features - done
+[3.910s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.560s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[6.115s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.475s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[7.127s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.203s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.325s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.476s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.695s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.457s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.494s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.467s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.788s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.304s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.410s] -- Looking for pthread.h
+[10.901s] -- Looking for pthread.h - found
+[10.908s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.320s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.326s] -- Found Threads: TRUE  
+[12.159s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[13.045s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[13.546s] -- Configuring done
+[13.667s] -- Generating done
+[13.676s] -- Build files have been written to: /home/robotrodeo/capstone/build/sllidar_ros2
+[13.720s] Invoked command in '/home/robotrodeo/capstone/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotrodeo/capstone/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotrodeo/capstone/install/sllidar_ros2
+[13.732s] Invoking command in '/home/robotrodeo/capstone/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotrodeo/capstone/build/sllidar_ros2 -- -j4 -l4
+[13.998s] [ 14%] [32mBuilding CXX object CMakeFiles/sllidar_client.dir/src/sllidar_client.cpp.o[0m
+[14.000s] [ 14%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o[0m
+[14.003s] [ 28%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[14.004s] [ 28%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[15.204s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/src/sdkcommon.h:47[m[K,
+[15.205s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[15.206s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/src/hal/assert.h:1:1:[m[K [01;35m[Kwarning: [m[Knull character(s) ignored
+[15.207s]     1 | [01;35m[K [m[K                                                                                                                                                                                                                                                                                                                        
+[15.210s]       | [01;35m[K^[m[K
+[17.496s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[17.500s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[17.504s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[17.507s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[17.508s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[17.522s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[17.525s]       |                [01;35m[K^[m[K
+[17.527s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[17.530s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[17.532s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[17.534s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[17.534s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[17.535s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[17.536s]       |                    [01;35m[K^[m[K
+[18.031s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)[m[K’:
+[18.033s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[18.035s]   438 |         if ([01;35m[Kans == (int)len[m[K) {
+[18.038s]       |             [01;35m[K~~~~^~~~~~~~~~~[m[K
+[18.065s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)[m[K’:
+[18.067s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:722:39:[m[K [01;35m[Kwarning: [m[Kthe compiler can assume that the address of ‘[01m[Ktarget[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[18.067s]   722 |         const struct sockaddr* addr = [01;35m[K&target[m[K ? reinterpret_cast<const struct sockaddr*>(target.getPlatformData()) : NULL;
+[18.068s]       |                                       [01;35m[K^~~~~~~[m[K
+[18.070s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/src/arch/linux/arch_linux.h:42[m[K,
+[18.071s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/src/sdkcommon.h:41[m[K,
+[18.072s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[18.073s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[18.074s]   726 |             assert([01;35m[Kans == (int)len[m[K);
+[18.075s]       |                    [01;35m[K~~~~^~~~~~~~~~~[m[K
+[18.342s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[18.344s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.347s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[18.353s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[18.354s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[18.355s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.356s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[18.357s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[18.358s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[18.359s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.360s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[18.361s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[18.362s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[18.362s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.363s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[18.364s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[18.945s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:722:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Knonnull[m[K’ argument ‘[01m[Ktarget[m[K’ compared to NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-compare-Wnonnull-compare]8;;[m[K]
+[18.948s]   722 |         const struct sockaddr* addr = &target [01;35m[K?[m[K reinterpret_cast<const struct sockaddr*>(target.getPlatformData()) : NULL;
+[18.950s]       |                                               [01;35m[K^[m[K
+[19.510s] [ 35%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[19.774s] [ 42%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/hal/thread.cpp.o[0m
+[20.854s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/src/sdkcommon.h:47[m[K,
+[20.855s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[20.856s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/src/hal/assert.h:1:1:[m[K [01;35m[Kwarning: [m[Knull character(s) ignored
+[20.857s]     1 | [01;35m[K [m[K                                                                                                                                                                                                                                                                                                                        
+[20.858s]       | [01;35m[K^[m[K
+[23.924s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[23.925s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[23.926s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[23.927s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[23.928s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[23.929s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[23.931s]       |                [01;35m[K^[m[K
+[23.932s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[23.933s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[23.937s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[23.938s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[23.940s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[23.941s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[23.955s]       |                    [01;35m[K^[m[K
+[24.034s] [ 50%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/rplidar_driver.cpp.o[0m
+[24.460s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/hal/thread.cpp:43[m[K:
+[24.462s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[24.464s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:48:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[24.467s]    48 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+[24.470s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[24.482s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[24.484s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[24.488s]   129 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[24.491s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[25.142s] [ 57%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_crc.cpp.o[0m
+[25.226s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sdkcommon.h:47[m[K,
+[25.227s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33[m[K:
+[25.228s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/hal/assert.h:1:1:[m[K [01;35m[Kwarning: [m[Knull character(s) ignored
+[25.229s]     1 | [01;35m[K [m[K                                                                                                                                                                                                                                                                                                                        
+[25.231s]       | [01;35m[K^[m[K
+[25.304s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[25.307s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_crc.h:36[m[K,
+[25.312s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_crc.cpp:33[m[K:
+[25.321s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.322s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[25.323s]       |                [01;35m[K^[m[K
+[25.329s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_crc.h:36[m[K,
+[25.330s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_crc.cpp:33[m[K:
+[25.331s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.333s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[25.345s]       |                    [01;35m[K^[m[K
+[25.351s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:37[m[K:
+[25.352s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/hal/assert.h:1:1:[m[K [01;35m[Kwarning: [m[Knull character(s) ignored
+[25.354s]     1 | [01;35m[K [m[K                                                                                                                                                                                                                                                                                                                        
+[25.355s]       | [01;35m[K^[m[K
+[25.370s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_crc.cpp:[m[K In function ‘[01m[Ksl_u32 sl::crc32::cal(sl_u32, void*, sl_u16)[m[K’:
+[25.370s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_crc.cpp:77:29:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K-[m[K’ in operand of ‘[01m[K&[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[25.371s]    77 |         sl_u8 leftBytes = [01;35m[K4 - len[m[K & 0x3;
+[25.372s]       |                           [01;35m[K~~^~~~~[m[K
+[25.496s] [ 64%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidar_driver.cpp.o[0m
+[26.792s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sdkcommon.h:47[m[K,
+[26.792s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[26.793s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/hal/assert.h:1:1:[m[K [01;35m[Kwarning: [m[Knull character(s) ignored
+[26.794s]     1 | [01;35m[K [m[K                                                                                                                                                                                                                                                                                                                        
+[26.794s]       | [01;35m[K^[m[K
+[26.898s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:37[m[K:
+[26.900s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/hal/assert.h:1:1:[m[K [01;35m[Kwarning: [m[Knull character(s) ignored
+[26.901s]     1 | [01;35m[K [m[K                                                                                                                                                                                                                                                                                                                        
+[26.901s]       | [01;35m[K^[m[K
+[27.613s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[27.614s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[27.616s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[27.617s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33[m[K:
+[27.619s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[27.620s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[27.621s]       |                [01;35m[K^[m[K
+[27.622s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[27.625s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[27.632s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[27.648s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33[m[K:
+[27.650s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[27.651s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[27.652s]       |                    [01;35m[K^[m[K
+[29.033s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)[m[K’:
+[29.035s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:67:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[29.036s]    67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, [01;35m[K_u32 flag[m[K)
+[29.037s]       |                                                                        [01;35m[K~~~~~^~~~[m[K
+[29.039s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)[m[K’:
+[29.040s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:101:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[29.041s]   101 |     u_result RPlidarDriver::reset([01;35m[K_u32 timeout[m[K)
+[29.054s]       |                                   [01;35m[K~~~~~^~~~~~~[m[K
+[29.058s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)[m[K’:
+[29.062s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:175:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodebuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[29.066s]   175 |     u_result RPlidarDriver::getScanDataWithInterval([01;35m[Krplidar_response_measurement_node_t * nodebuffer[m[K, size_t & count)
+[29.069s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[29.076s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:175:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[29.078s]   175 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, [01;35m[Ksize_t & count[m[K)
+[29.080s]       |                                                                                                       [01;35m[K~~~~~~~~~^~~~~[m[K
+[29.561s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[29.563s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[29.567s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[29.568s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[29.570s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[29.573s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[29.576s]       |                [01;35m[K^[m[K
+[29.587s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[29.589s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[29.591s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[29.593s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[29.595s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[29.597s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[29.614s]       |                    [01;35m[K^[m[K
+[29.955s] [ 71%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_serial_channel.cpp.o[0m
+[30.039s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
+[30.041s]    33 | #pragma [01;35m[Konce[m[K
+[30.043s]       |         [01;35m[K^~~~[m[K
+[30.863s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)[m[K’:
+[30.864s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:273:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[30.865s]   273 |         sl_result reset([01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[30.866s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.886s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getAllSupportedScanModes(std::vector<sl::LidarScanMode>&, sl_u32)[m[K’:
+[30.888s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:286:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[30.899s]   286 |         sl_result getAllSupportedScanModes(std::vector<LidarScanMode>& outModes, [01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[30.906s]       |                                                                                  [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.908s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)[m[K’:
+[30.910s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:347:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[30.912s]   347 |         sl_result startScan(bool force, bool useTypicalScan, [01;35m[Ksl_u32 options = 0[m[K, LidarScanMode* outUsedScanMode = nullptr)
+[30.922s]       |                                                              [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[30.926s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)[m[K’:
+[30.927s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:534:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[30.928s]   534 |         sl_result stop([01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[30.929s]       |                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.938s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getDeviceInfo(sl_lidar_response_device_info_t&, sl_u32)[m[K’:
+[30.940s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:579:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[30.941s]   579 |         sl_result getDeviceInfo(sl_lidar_response_device_info_t& info, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[30.943s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.943s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::checkMotorCtrlSupport(sl::MotorCtrlSupport&, sl_u32)[m[K’:
+[30.944s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:592:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[30.945s]   592 |         sl_result checkMotorCtrlSupport(MotorCtrlSupport & support, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[30.946s]       |                                                                     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.947s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)[m[K’:
+[30.948s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:627:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[30.949s]   627 |         sl_result getFrequency(const LidarScanMode& scanMode, [01;35m[Kconst sl_lidar_response_measurement_node_hq_t* nodes[m[K, size_t count, float& frequency)
+[30.957s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[30.958s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getHealth(sl_lidar_response_device_health_t&, sl_u32)[m[K’:
+[30.959s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:640:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[30.961s]   640 |         sl_result getHealth(sl_lidar_response_device_health_t& health, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[30.962s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.963s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)[m[K’:
+[30.964s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:730:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[30.965s]   730 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, [01;35m[Ksl_u32 timeoutInMs[m[K)
+[30.966s]       |                                                           [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[30.988s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Ksl_result sl::SlamtecLidarDriver::_sendCommand(sl_u16, const void*, size_t)[m[K’:
+[30.990s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1089:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[30.992s]  1089 |             for (int pos = 0; [01;35m[Kpos < cmd_packet.size()[m[K; pos++) {
+[30.994s]       |                               [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[30.997s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1058:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpkt_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[30.998s]  1058 |             sl_u8 [01;35m[Kpkt_header[m[K[10];
+[31.000s]       |                   [01;35m[K^~~~~~~~~~[m[K
+[31.023s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvoid sl::SlamtecLidarDriver::_ultraCapsuleToNormal(const sl_lidar_response_ultra_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[31.025s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1370:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[31.026s]  1370 |                     if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+[31.027s]       |                          [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[31.028s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1379:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[31.029s]  1379 |                     if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+[31.030s]       |                          [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[31.038s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvoid sl::SlamtecLidarDriver::_dense_capsuleToNormal(const sl_lidar_response_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[31.040s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1577:38:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[31.041s]  1577 |                     const int dist = [01;35m[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)[m[K;
+[31.042s]       |                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.322s] /home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In instantiation of ‘[01m[Ksl_result sl::ascendScanData_(TNode*, size_t) [with TNode = sl_lidar_response_measurement_node_hq_t; sl_result = unsigned int; size_t = long unsigned int][m[K’:
+[31.324s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:677:76:[m[K   required from here
+[31.326s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:178:31:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[31.328s]   178 |         for (i = count - 1; [01;35m[Ki >= 0[m[K; i--) {
+[31.330s]       |                             [01;35m[K~~^~~~[m[K
+[31.959s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K At global scope:
+[31.960s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:72:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[31.962s]    72 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+[31.963s]       |                 [01;35m[K^~~~~~~[m[K
+[31.965s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:59:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::printDeprecationWarn(const char*, const char*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[31.966s]    59 |     static void [01;35m[KprintDeprecationWarn[m[K(const char* fn, const char* replacement)
+[31.966s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[32.491s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[32.492s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[32.493s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:34[m[K:
+[32.495s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[32.497s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[32.498s]       |                [01;35m[K^[m[K
+[32.499s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[32.500s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:34[m[K:
+[32.501s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[32.508s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[32.518s]       |                    [01;35m[K^[m[K
+[33.048s] [ 78%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_tcp_channel.cpp.o[0m
+[33.131s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
+[33.135s]    33 | #pragma [01;35m[Konce[m[K
+[33.138s]       |         [01;35m[K^~~~[m[K
+[33.779s] [ 85%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_udp_channel.cpp.o[0m
+[33.862s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
+[33.863s]    33 | #pragma [01;35m[Konce[m[K
+[33.864s]       |         [01;35m[K^~~~[m[K
+[35.559s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[35.561s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[35.564s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:34[m[K:
+[35.568s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[35.571s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[35.582s]       |                [01;35m[K^[m[K
+[35.584s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[35.591s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:34[m[K:
+[35.607s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[35.609s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[35.610s]       |                    [01;35m[K^[m[K
+[35.621s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::TcpChannel::setStatus(_u32)[m[K’:
+[35.623s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:95:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[35.623s]    95 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[35.624s]       |                        [01;35m[K~~~~~^~~~[m[K
+[36.308s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[36.310s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[36.312s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:34[m[K:
+[36.312s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[36.313s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[36.315s]       |                [01;35m[K^[m[K
+[36.318s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[36.319s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:34[m[K:
+[36.320s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[36.321s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[36.322s]       |                    [01;35m[K^[m[K
+[36.336s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::UdpChannel::setStatus(_u32)[m[K’:
+[36.337s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:103:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[36.338s]   103 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[36.339s]       |                        [01;35m[K~~~~~^~~~[m[K
+[36.744s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[36.746s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[36.747s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[36.747s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[36.748s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[36.749s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[36.751s]       |                [01;35m[K^[m[K
+[36.752s] In file included from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[36.753s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[36.754s]                  from [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[36.755s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[36.756s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[36.757s]       |                    [01;35m[K^[m[K
+[42.195s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/src/sllidar_node.cpp:[m[K In member function ‘[01m[Kbool SLlidarNode::checkSLLIDARHealth(sl::ILidarDriver*)[m[K’:
+[42.196s] [01m[K/home/robotrodeo/capstone/src/sllidar_ros2/src/sllidar_node.cpp:147:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[42.196s]   147 |     [01;35m[K}[m[K
+[42.197s]       |     [01;35m[K^[m[K
+[53.305s] [ 92%] [32m[1mLinking CXX executable sllidar_node[0m
+[55.708s] [ 92%] Built target sllidar_node
+[70.761s] [100%] [32m[1mLinking CXX executable sllidar_client[0m
+[73.398s] [100%] Built target sllidar_client
+[73.442s] Invoked command in '/home/robotrodeo/capstone/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotrodeo/capstone/build/sllidar_ros2 -- -j4 -l4
+[73.774s] Invoking command in '/home/robotrodeo/capstone/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotrodeo/capstone/build/sllidar_ros2
+[73.808s] -- Install configuration: ""
+[73.810s] -- Execute custom install script
+[73.813s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[73.846s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py
+[73.888s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[73.932s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[73.970s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[74.012s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[74.047s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[74.087s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[74.125s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py
+[74.161s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[74.214s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[74.253s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[74.298s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[74.332s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[74.370s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[74.413s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[74.449s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[74.493s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[74.538s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[74.578s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[74.620s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[74.655s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[74.700s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[74.735s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[74.772s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[74.815s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[74.849s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[74.893s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[74.931s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[74.967s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[75.011s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[75.047s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[75.086s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[75.130s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[75.186s] Invoked command in '/home/robotrodeo/capstone/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotrodeo/capstone/build/sllidar_ros2

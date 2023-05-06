@@ -1,0 +1,129 @@
+[2.083s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.083s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffaffd0880>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffaffd02b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffaffd02b0>>)
+[2.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.204s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robotrodeo/capstone'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.266s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extensions ['ignore', 'ignore_ament_install']
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extension 'ignore'
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extension 'ignore_ament_install'
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extensions ['colcon_pkg']
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extension 'colcon_pkg'
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extensions ['colcon_meta']
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extension 'colcon_meta'
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extensions ['ros']
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extension 'ros'
+[2.288s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drivetrain' with type 'ros.ament_python' and name 'drivetrain'
+[2.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.397s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/robotrodeo/capstone/install
+[2.411s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 364 installed packages in /opt/ros/humble
+[2.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.752s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_args' from command line to 'None'
+[2.752s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_target' from command line to 'None'
+[2.752s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.752s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_clean_cache' from command line to 'False'
+[2.753s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_clean_first' from command line to 'False'
+[2.753s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_force_configure' from command line to 'False'
+[2.753s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'ament_cmake_args' from command line to 'None'
+[2.753s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'catkin_cmake_args' from command line to 'None'
+[2.753s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.753s] DEBUG:colcon.colcon_core.verb:Building package 'drivetrain' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotrodeo/capstone/build/drivetrain', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotrodeo/capstone/install/drivetrain', 'merge_install': False, 'path': '/home/robotrodeo/capstone/src/drivetrain', 'symlink_install': False, 'test_result_base': None}
+[2.756s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.770s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.771s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robotrodeo/capstone/src/drivetrain' with build type 'ament_python'
+[2.772s] Level 1:colcon.colcon_core.shell:create_environment_hook('drivetrain', 'ament_prefix_path')
+[2.795s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/hook/ament_prefix_path.ps1'
+[2.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/hook/ament_prefix_path.dsv'
+[2.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/hook/ament_prefix_path.sh'
+[2.821s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.822s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.276s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robotrodeo/capstone/src/drivetrain'
+[4.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotrodeo/capstone/build/drivetrain': PYTHONPATH=/home/robotrodeo/capstone/build/drivetrain/prefix_override:/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robotrodeo/capstone/build/drivetrain/build
+[9.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotrodeo/capstone/build/drivetrain' returned '0': PYTHONPATH=/home/robotrodeo/capstone/build/drivetrain/prefix_override:/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robotrodeo/capstone/build/drivetrain/build
+[9.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotrodeo/capstone/src/drivetrain': PYTHONPATH=/home/robotrodeo/capstone/build/drivetrain/prefix_override:/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drivetrain build --build-base /home/robotrodeo/capstone/build/drivetrain/build install --record /home/robotrodeo/capstone/build/drivetrain/install.log --single-version-externally-managed
+[11.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotrodeo/capstone/src/drivetrain' returned '0': PYTHONPATH=/home/robotrodeo/capstone/build/drivetrain/prefix_override:/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drivetrain build --build-base /home/robotrodeo/capstone/build/drivetrain/build install --record /home/robotrodeo/capstone/build/drivetrain/install.log --single-version-externally-managed
+[11.456s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/drivetrain' for CMake module files
+[11.460s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/drivetrain' for CMake config files
+[11.464s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/drivetrain/lib'
+[11.466s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/drivetrain/bin'
+[11.466s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/drivetrain/lib/pkgconfig/drivetrain.pc'
+[11.467s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages'
+[11.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('drivetrain', 'pythonpath')
+[11.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/hook/pythonpath.ps1'
+[11.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/hook/pythonpath.dsv'
+[11.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/hook/pythonpath.sh'
+[11.481s] Level 1:colcon.colcon_core.environment:checking '/home/robotrodeo/capstone/install/drivetrain/bin'
+[11.482s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drivetrain)
+[11.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/package.ps1'
+[11.492s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/package.dsv'
+[11.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/package.sh'
+[11.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/package.bash'
+[11.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotrodeo/capstone/install/drivetrain/share/drivetrain/package.zsh'
+[11.506s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotrodeo/capstone/install/drivetrain/share/colcon-core/packages/drivetrain)
+[11.508s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.509s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.510s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.510s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.545s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.546s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.546s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.603s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.610s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotrodeo/capstone/install/local_setup.ps1'
+[11.616s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotrodeo/capstone/install/_local_setup_util_ps1.py'
+[11.625s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotrodeo/capstone/install/setup.ps1'
+[11.665s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotrodeo/capstone/install/local_setup.sh'
+[11.681s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotrodeo/capstone/install/_local_setup_util_sh.py'
+[11.700s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotrodeo/capstone/install/setup.sh'
+[11.720s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotrodeo/capstone/install/local_setup.bash'
+[11.732s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotrodeo/capstone/install/setup.bash'
+[11.748s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotrodeo/capstone/install/local_setup.zsh'
+[11.753s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotrodeo/capstone/install/setup.zsh'

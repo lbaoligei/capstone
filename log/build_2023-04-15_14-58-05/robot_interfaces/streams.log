@@ -1,0 +1,23 @@
+[0.257s] Invoking command in '/home/robotrodeo/capstone/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/opt/ros/humble /usr/bin/cmake --build /home/robotrodeo/capstone/build/robot_interfaces -- -j4 -l4
+[2.614s] [  3%] Built target robot_interfaces__cpp
+[2.614s] [ 12%] Built target robot_interfaces__rosidl_generator_c
+[2.614s] [ 12%] Built target ament_cmake_python_copy_robot_interfaces
+[2.615s] [ 22%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[2.615s] [ 32%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.616s] [ 41%] Built target robot_interfaces__rosidl_typesupport_cpp
+[2.616s] [ 51%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[2.616s] [ 61%] Built target robot_interfaces__rosidl_typesupport_c
+[2.617s] [ 70%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[2.617s] [ 70%] Built target robot_interfaces
+[2.617s] [ 74%] Built target robot_interfaces__py
+[2.617s] [ 80%] Built target robot_interfaces__rosidl_generator_py
+[2.618s] [ 87%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.618s] [ 93%] Built target robot_interfaces__rosidl_typesupport_c__pyext
+[2.618s] [100%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.698s] running egg_info
+[2.705s] writing robot_interfaces.egg-info/PKG-INFO
+[2.708s] writing dependency_links to robot_interfaces.egg-info/dependency_links.txt
+[2.709s] writing top-level names to robot_interfaces.egg-info/top_level.txt
+[2.726s] reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[2.729s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[2.868s] [100%] Built target ament_cmake_python_build_robot_interfaces_egg

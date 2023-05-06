@@ -1,0 +1,34 @@
+[4.980s] Invoking command in '/home/robotrodeo/capstone/build/encoder': PYTHONPATH=/home/robotrodeo/capstone/build/encoder/prefix_override:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/robotrodeo/capstone/build/encoder/build --no-deps install_data
+[7.317s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.318s]   warnings.warn(
+[7.508s] running develop
+[7.513s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.513s]   warnings.warn(
+[7.529s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.530s]   warnings.warn(
+[8.213s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[8.214s]   warnings.warn(
+[8.215s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[8.216s]   warnings.warn(
+[9.292s] running egg_info
+[9.293s] creating encoder.egg-info
+[9.294s] writing encoder.egg-info/PKG-INFO
+[9.296s] writing dependency_links to encoder.egg-info/dependency_links.txt
+[9.297s] writing entry points to encoder.egg-info/entry_points.txt
+[9.297s] writing requirements to encoder.egg-info/requires.txt
+[9.298s] writing top-level names to encoder.egg-info/top_level.txt
+[9.299s] writing manifest file 'encoder.egg-info/SOURCES.txt'
+[9.307s] reading manifest file 'encoder.egg-info/SOURCES.txt'
+[9.311s] writing manifest file 'encoder.egg-info/SOURCES.txt'
+[9.320s] running build_ext
+[9.320s] Creating /home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages/encoder.egg-link (link to .)
+[9.341s] Installing motor_encoder script to /home/robotrodeo/capstone/install/encoder/lib/encoder
+[9.342s] 
+[9.345s] Installed /home/robotrodeo/capstone/build/encoder
+[9.347s] running install_data
+[9.349s] creating /home/robotrodeo/capstone/install/encoder/share/ament_index
+[9.353s] creating /home/robotrodeo/capstone/install/encoder/share/ament_index/resource_index
+[9.356s] creating /home/robotrodeo/capstone/install/encoder/share/ament_index/resource_index/packages
+[9.361s] copying resource/encoder -> /home/robotrodeo/capstone/install/encoder/share/ament_index/resource_index/packages
+[9.364s] copying package.xml -> /home/robotrodeo/capstone/install/encoder/share/encoder
+[9.585s] Invoked command in '/home/robotrodeo/capstone/build/encoder' returned '0': PYTHONPATH=/home/robotrodeo/capstone/build/encoder/prefix_override:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/robotrodeo/capstone/build/encoder/build --no-deps install_data

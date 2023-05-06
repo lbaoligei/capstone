@@ -1,0 +1,50 @@
+[2.964s] Invoking command in '/home/robotrodeo/capstone/build/drivetrain': PYTHONPATH=/home/robotrodeo/capstone/build/drivetrain/prefix_override:/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robotrodeo/capstone/build/drivetrain/build
+[4.189s] running develop
+[4.190s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.191s]   warnings.warn(
+[4.195s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.196s]   warnings.warn(
+[4.483s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[4.484s]   warnings.warn(
+[4.485s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[4.485s]   warnings.warn(
+[5.170s] Invoked command in '/home/robotrodeo/capstone/build/drivetrain' returned '0': PYTHONPATH=/home/robotrodeo/capstone/build/drivetrain/prefix_override:/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robotrodeo/capstone/build/drivetrain/build
+[5.179s] Invoking command in '/home/robotrodeo/capstone/src/drivetrain': PYTHONPATH=/home/robotrodeo/capstone/build/drivetrain/prefix_override:/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drivetrain build --build-base /home/robotrodeo/capstone/build/drivetrain/build install --record /home/robotrodeo/capstone/build/drivetrain/install.log --single-version-externally-managed
+[6.325s] running egg_info
+[6.328s] writing ../../build/drivetrain/drivetrain.egg-info/PKG-INFO
+[6.329s] writing dependency_links to ../../build/drivetrain/drivetrain.egg-info/dependency_links.txt
+[6.330s] writing entry points to ../../build/drivetrain/drivetrain.egg-info/entry_points.txt
+[6.331s] writing requirements to ../../build/drivetrain/drivetrain.egg-info/requires.txt
+[6.331s] writing top-level names to ../../build/drivetrain/drivetrain.egg-info/top_level.txt
+[6.340s] reading manifest file '../../build/drivetrain/drivetrain.egg-info/SOURCES.txt'
+[6.344s] writing manifest file '../../build/drivetrain/drivetrain.egg-info/SOURCES.txt'
+[6.345s] running build
+[6.345s] running build_py
+[6.348s] copying drivetrain/arm_node.py -> /home/robotrodeo/capstone/build/drivetrain/build/lib/drivetrain
+[6.349s] copying drivetrain/controller_node.py -> /home/robotrodeo/capstone/build/drivetrain/build/lib/drivetrain
+[6.350s] running install
+[6.351s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.351s]   warnings.warn(
+[6.352s] running install_lib
+[6.356s] creating /home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages/drivetrain
+[6.356s] copying /home/robotrodeo/capstone/build/drivetrain/build/lib/drivetrain/__init__.py -> /home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages/drivetrain
+[6.357s] copying /home/robotrodeo/capstone/build/drivetrain/build/lib/drivetrain/tail_node.py -> /home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages/drivetrain
+[6.359s] copying /home/robotrodeo/capstone/build/drivetrain/build/lib/drivetrain/drivetrain_node.py -> /home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages/drivetrain
+[6.360s] copying /home/robotrodeo/capstone/build/drivetrain/build/lib/drivetrain/arm_node.py -> /home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages/drivetrain
+[6.361s] copying /home/robotrodeo/capstone/build/drivetrain/build/lib/drivetrain/controller_node.py -> /home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages/drivetrain
+[6.364s] byte-compiling /home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages/drivetrain/__init__.py to __init__.cpython-310.pyc
+[6.365s] byte-compiling /home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages/drivetrain/tail_node.py to tail_node.cpython-310.pyc
+[6.368s] byte-compiling /home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages/drivetrain/drivetrain_node.py to drivetrain_node.cpython-310.pyc
+[6.373s] byte-compiling /home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages/drivetrain/arm_node.py to arm_node.cpython-310.pyc
+[6.375s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (arm_node.py, line 96)
+[6.376s] byte-compiling /home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages/drivetrain/controller_node.py to controller_node.cpython-310.pyc
+[6.378s] running install_data
+[6.381s] running install_egg_info
+[6.389s] Copying ../../build/drivetrain/drivetrain.egg-info to /home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages/drivetrain-0.0.0-py3.10.egg-info
+[6.395s] running install_scripts
+[6.481s] Installing arm_node script to /home/robotrodeo/capstone/install/drivetrain/lib/drivetrain
+[6.481s] Installing controller_node script to /home/robotrodeo/capstone/install/drivetrain/lib/drivetrain
+[6.483s] Installing drivetrain_node script to /home/robotrodeo/capstone/install/drivetrain/lib/drivetrain
+[6.484s] Installing tail_node script to /home/robotrodeo/capstone/install/drivetrain/lib/drivetrain
+[6.486s] writing list of installed files to '/home/robotrodeo/capstone/build/drivetrain/install.log'
+[6.612s] Invoked command in '/home/robotrodeo/capstone/src/drivetrain' returned '0': PYTHONPATH=/home/robotrodeo/capstone/build/drivetrain/prefix_override:/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drivetrain build --build-base /home/robotrodeo/capstone/build/drivetrain/build install --record /home/robotrodeo/capstone/build/drivetrain/install.log --single-version-externally-managed

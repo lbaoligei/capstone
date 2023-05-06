@@ -1,0 +1,4 @@
+[1.585s] Invoking command in '/home/robotrodeo/capstone/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/drivetrain:/opt/ros/humble /usr/bin/cmake --build /home/robotrodeo/capstone/build/sllidar_ros2 -- -j4 -l4
+[1.976s] [ 14%] Built target sllidar_client
+[1.986s] [100%] Built target sllidar_node
+[2.151s] Invoked command in '/home/robotrodeo/capstone/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/home/robotrodeo/capstone/install/drivetrain:/opt/ros/humble /usr/bin/cmake --build /home/robotrodeo/capstone/build/sllidar_ros2 -- -j4 -l4

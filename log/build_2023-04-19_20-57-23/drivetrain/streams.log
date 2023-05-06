@@ -1,0 +1,30 @@
+[3.386s] Invoking command in '/home/robotrodeo/capstone/build/drivetrain': PYTHONPATH=/home/robotrodeo/capstone/build/drivetrain/prefix_override:/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robotrodeo/capstone/build/drivetrain/build
+[4.692s] running develop
+[5.701s] Invoked command in '/home/robotrodeo/capstone/build/drivetrain' returned '0': PYTHONPATH=/home/robotrodeo/capstone/build/drivetrain/prefix_override:/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robotrodeo/capstone/build/drivetrain/build
+[5.710s] Invoking command in '/home/robotrodeo/capstone/src/drivetrain': PYTHONPATH=/home/robotrodeo/capstone/build/drivetrain/prefix_override:/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drivetrain build --build-base /home/robotrodeo/capstone/build/drivetrain/build install --record /home/robotrodeo/capstone/build/drivetrain/install.log --single-version-externally-managed
+[6.934s] running egg_info
+[6.937s] writing ../../build/drivetrain/drivetrain.egg-info/PKG-INFO
+[6.938s] writing dependency_links to ../../build/drivetrain/drivetrain.egg-info/dependency_links.txt
+[6.939s] writing entry points to ../../build/drivetrain/drivetrain.egg-info/entry_points.txt
+[6.940s] writing requirements to ../../build/drivetrain/drivetrain.egg-info/requires.txt
+[6.941s] writing top-level names to ../../build/drivetrain/drivetrain.egg-info/top_level.txt
+[6.949s] reading manifest file '../../build/drivetrain/drivetrain.egg-info/SOURCES.txt'
+[6.953s] writing manifest file '../../build/drivetrain/drivetrain.egg-info/SOURCES.txt'
+[6.954s] running build
+[6.954s] running build_py
+[6.955s] copying drivetrain/arm_node.py -> /home/robotrodeo/capstone/build/drivetrain/build/lib/drivetrain
+[6.957s] running install
+[6.959s] running install_lib
+[6.963s] copying /home/robotrodeo/capstone/build/drivetrain/build/lib/drivetrain/arm_node.py -> /home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages/drivetrain
+[6.966s] byte-compiling /home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages/drivetrain/arm_node.py to arm_node.cpython-310.pyc
+[6.976s] running install_data
+[6.978s] running install_egg_info
+[6.986s] removing '/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages/drivetrain-0.0.0-py3.10.egg-info' (and everything under it)
+[6.988s] Copying ../../build/drivetrain/drivetrain.egg-info to /home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages/drivetrain-0.0.0-py3.10.egg-info
+[6.994s] running install_scripts
+[7.072s] Installing arm_node script to /home/robotrodeo/capstone/install/drivetrain/lib/drivetrain
+[7.073s] Installing controller_node script to /home/robotrodeo/capstone/install/drivetrain/lib/drivetrain
+[7.074s] Installing drivetrain_node script to /home/robotrodeo/capstone/install/drivetrain/lib/drivetrain
+[7.075s] Installing tail_node script to /home/robotrodeo/capstone/install/drivetrain/lib/drivetrain
+[7.078s] writing list of installed files to '/home/robotrodeo/capstone/build/drivetrain/install.log'
+[7.223s] Invoked command in '/home/robotrodeo/capstone/src/drivetrain' returned '0': PYTHONPATH=/home/robotrodeo/capstone/build/drivetrain/prefix_override:/home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drivetrain build --build-base /home/robotrodeo/capstone/build/drivetrain/build install --record /home/robotrodeo/capstone/build/drivetrain/install.log --single-version-externally-managed

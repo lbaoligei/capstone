@@ -1,0 +1,42 @@
+[2.994s] Invoking command in '/home/robotrodeo/capstone/build/encoder': CMAKE_PREFIX_PATH=/home/robotrodeo/capstone/install/robot_interfaces:/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/articubot_one PYTHONPATH=/home/robotrodeo/capstone/build/encoder/prefix_override:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robotrodeo/capstone/build/encoder/build
+[4.060s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.061s]   warnings.warn(
+[4.175s] running develop
+[4.181s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.182s]   warnings.warn(
+[4.189s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.190s]   warnings.warn(
+[4.470s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[4.470s]   warnings.warn(
+[4.471s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[4.472s]   warnings.warn(
+[5.119s] Invoked command in '/home/robotrodeo/capstone/build/encoder' returned '0': CMAKE_PREFIX_PATH=/home/robotrodeo/capstone/install/robot_interfaces:/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/articubot_one PYTHONPATH=/home/robotrodeo/capstone/build/encoder/prefix_override:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robotrodeo/capstone/build/encoder/build
+[5.127s] Invoking command in '/home/robotrodeo/capstone/src/encoder': CMAKE_PREFIX_PATH=/home/robotrodeo/capstone/install/robot_interfaces:/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/articubot_one PYTHONPATH=/home/robotrodeo/capstone/build/encoder/prefix_override:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/encoder build --build-base /home/robotrodeo/capstone/build/encoder/build install --record /home/robotrodeo/capstone/build/encoder/install.log --install-scripts $base/lib/encoder --single-version-externally-managed
+[6.170s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.170s]   warnings.warn(
+[6.205s] running egg_info
+[6.208s] writing ../../build/encoder/encoder.egg-info/PKG-INFO
+[6.212s] writing dependency_links to ../../build/encoder/encoder.egg-info/dependency_links.txt
+[6.213s] writing entry points to ../../build/encoder/encoder.egg-info/entry_points.txt
+[6.214s] writing requirements to ../../build/encoder/encoder.egg-info/requires.txt
+[6.215s] writing top-level names to ../../build/encoder/encoder.egg-info/top_level.txt
+[6.225s] reading manifest file '../../build/encoder/encoder.egg-info/SOURCES.txt'
+[6.231s] writing manifest file '../../build/encoder/encoder.egg-info/SOURCES.txt'
+[6.232s] running build
+[6.232s] running build_py
+[6.234s] copying encoder/motor_encoder.py -> /home/robotrodeo/capstone/build/encoder/build/lib/encoder
+[6.236s] running install
+[6.237s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.237s]   warnings.warn(
+[6.238s] running install_lib
+[6.243s] copying /home/robotrodeo/capstone/build/encoder/build/lib/encoder/motor_encoder.py -> /home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages/encoder
+[6.247s] byte-compiling /home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages/encoder/motor_encoder.py to motor_encoder.cpython-310.pyc
+[6.250s] running install_data
+[6.253s] copying package.xml -> /home/robotrodeo/capstone/install/encoder/share/encoder
+[6.254s] running install_egg_info
+[6.260s] removing '/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages/encoder-0.0.0-py3.10.egg-info' (and everything under it)
+[6.262s] Copying ../../build/encoder/encoder.egg-info to /home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages/encoder-0.0.0-py3.10.egg-info
+[6.268s] running install_scripts
+[6.352s] Installing motor_encoder script to /home/robotrodeo/capstone/install/encoder/lib/encoder
+[6.354s] writing list of installed files to '/home/robotrodeo/capstone/build/encoder/install.log'
+[6.497s] Invoked command in '/home/robotrodeo/capstone/src/encoder' returned '0': CMAKE_PREFIX_PATH=/home/robotrodeo/capstone/install/robot_interfaces:/home/robotrodeo/capstone/install/sllidar_ros2:/home/robotrodeo/capstone/install/articubot_one PYTHONPATH=/home/robotrodeo/capstone/build/encoder/prefix_override:/home/robotrodeo/capstone/install/encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/encoder build --build-base /home/robotrodeo/capstone/build/encoder/build install --record /home/robotrodeo/capstone/build/encoder/install.log --install-scripts $base/lib/encoder --single-version-externally-managed

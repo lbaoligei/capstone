@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_interfaces",
+  "non_idl_tuples": [
+    "/home/robotrodeo/capstone/src/robot_interfaces:msg/EncoderData.msg"
+  ]
+}

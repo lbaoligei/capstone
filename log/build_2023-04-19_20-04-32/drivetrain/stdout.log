@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing drivetrain.egg-info/PKG-INFO
+writing dependency_links to drivetrain.egg-info/dependency_links.txt
+writing entry points to drivetrain.egg-info/entry_points.txt
+writing requirements to drivetrain.egg-info/requires.txt
+writing top-level names to drivetrain.egg-info/top_level.txt
+reading manifest file 'drivetrain.egg-info/SOURCES.txt'
+writing manifest file 'drivetrain.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robotrodeo/capstone/install/drivetrain/lib/python3.10/site-packages/drivetrain.egg-link (link to .)
+Installing controller_node script to /home/robotrodeo/capstone/install/drivetrain/lib/drivetrain
+Installing drivetrain_node script to /home/robotrodeo/capstone/install/drivetrain/lib/drivetrain
+Installing tail_node script to /home/robotrodeo/capstone/install/drivetrain/lib/drivetrain
+
+Installed /home/robotrodeo/capstone/build/drivetrain
+running install_data

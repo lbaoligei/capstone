@@ -1,0 +1,104 @@
+[4.071s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/robotrodeo/capstone']
+[4.072s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/robotrodeo/capstone'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8967ff10>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0xffff8965d6c0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0xffff8965d6c0>>)
+[4.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.533s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.534s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robotrodeo/capstone'
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone) by extensions ['ignore', 'ignore_ament_install']
+[4.536s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone) by extension 'ignore'
+[4.536s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone) by extension 'ignore_ament_install'
+[4.537s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone) by extensions ['colcon_pkg']
+[4.537s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone) by extension 'colcon_pkg'
+[4.538s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone) by extensions ['colcon_meta']
+[4.538s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone) by extension 'colcon_meta'
+[4.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone) by extensions ['ros']
+[4.540s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone) by extension 'ros'
+[4.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone) by extensions ['cmake', 'python']
+[4.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone) by extension 'cmake'
+[4.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone) by extension 'python'
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone) by extensions ['python_setup_py']
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone) by extension 'python_setup_py'
+[4.926s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/build) by extensions ['ignore', 'ignore_ament_install']
+[4.927s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/build) by extension 'ignore'
+[4.927s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/build) ignored
+[4.928s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/install) by extensions ['ignore', 'ignore_ament_install']
+[4.929s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/install) by extension 'ignore'
+[4.929s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/install) ignored
+[4.931s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/log) by extensions ['ignore', 'ignore_ament_install']
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/log) by extension 'ignore'
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/log) ignored
+[4.935s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src) by extensions ['ignore', 'ignore_ament_install']
+[4.937s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src) by extension 'ignore'
+[4.937s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src) by extension 'ignore_ament_install'
+[4.941s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src) by extensions ['colcon_pkg']
+[4.941s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src) by extension 'colcon_pkg'
+[4.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src) by extensions ['colcon_meta']
+[4.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src) by extension 'colcon_meta'
+[4.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src) by extensions ['ros']
+[4.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src) by extension 'ros'
+[4.944s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src) by extensions ['cmake', 'python']
+[4.945s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src) by extension 'cmake'
+[4.945s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src) by extension 'python'
+[4.946s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src) by extensions ['python_setup_py']
+[4.946s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src) by extension 'python_setup_py'
+[4.947s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[4.949s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/articubot_one) by extension 'ignore'
+[4.950s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/articubot_one) by extension 'ignore_ament_install'
+[4.951s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/articubot_one) by extensions ['colcon_pkg']
+[4.952s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/articubot_one) by extension 'colcon_pkg'
+[4.953s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/articubot_one) by extensions ['colcon_meta']
+[4.954s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/articubot_one) by extension 'colcon_meta'
+[4.955s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/articubot_one) by extensions ['ros']
+[4.956s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/articubot_one) by extension 'ros'
+[4.994s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robotrodeo/capstone/src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[4.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/encoder) by extensions ['ignore', 'ignore_ament_install']
+[5.004s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/encoder) by extension 'ignore'
+[5.004s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/encoder) by extension 'ignore_ament_install'
+[5.005s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/encoder) by extensions ['colcon_pkg']
+[5.006s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/encoder) by extension 'colcon_pkg'
+[5.006s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/encoder) by extensions ['colcon_meta']
+[5.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/encoder) by extension 'colcon_meta'
+[5.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/encoder) by extensions ['ros']
+[5.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/encoder) by extension 'ros'
+[5.012s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robotrodeo/capstone/src/encoder' with type 'ros.ament_python' and name 'encoder'
+[5.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo) by extensions ['ignore', 'ignore_ament_install']
+[5.014s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo) by extension 'ignore'
+[5.015s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo) by extension 'ignore_ament_install'
+[5.015s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo) by extensions ['colcon_pkg']
+[5.016s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo) by extension 'colcon_pkg'
+[5.016s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo) by extensions ['colcon_meta']
+[5.017s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo) by extension 'colcon_meta'
+[5.017s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo) by extensions ['ros']
+[5.018s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo) by extension 'ros'
+[5.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo) by extensions ['cmake', 'python']
+[5.030s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo) by extension 'cmake'
+[5.032s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo) by extension 'python'
+[5.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo) by extensions ['python_setup_py']
+[5.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo) by extension 'python_setup_py'
+[5.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo/launch) by extensions ['ignore', 'ignore_ament_install']
+[5.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo/launch) by extension 'ignore'
+[5.036s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo/launch) by extension 'ignore_ament_install'
+[5.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo/launch) by extensions ['colcon_pkg']
+[5.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo/launch) by extension 'colcon_pkg'
+[5.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo/launch) by extensions ['colcon_meta']
+[5.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo/launch) by extension 'colcon_meta'
+[5.040s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo/launch) by extensions ['ros']
+[5.040s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo/launch) by extension 'ros'
+[5.041s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo/launch) by extensions ['cmake', 'python']
+[5.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo/launch) by extension 'cmake'
+[5.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo/launch) by extension 'python'
+[5.043s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo/launch) by extensions ['python_setup_py']
+[5.043s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/slam_demo/launch) by extension 'python_setup_py'
+[5.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[5.057s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/sllidar_ros2) by extension 'ignore'
+[5.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/sllidar_ros2) by extension 'ignore_ament_install'
+[5.059s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/sllidar_ros2) by extensions ['colcon_pkg']
+[5.059s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/sllidar_ros2) by extension 'colcon_pkg'
+[5.060s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/sllidar_ros2) by extensions ['colcon_meta']
+[5.060s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/sllidar_ros2) by extension 'colcon_meta'
+[5.061s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/sllidar_ros2) by extensions ['ros']
+[5.061s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robotrodeo/capstone/src/sllidar_ros2) by extension 'ros'
+[5.066s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robotrodeo/capstone/src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[5.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

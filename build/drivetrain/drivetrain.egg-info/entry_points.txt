@@ -1,0 +1,7 @@
+[console_scripts]
+arm_node = drivetrain.arm_node:main
+controller_node = drivetrain.controller_node:main
+left_motor_node = drivetrain.left_motor_node:main
+right_motor_node = drivetrain.right_motor_node:main
+tail_node = drivetrain.tail_node:main
+

@@ -1,0 +1,42 @@
+[1.980s] Invoking command in '/home/robotrodeo/capstone/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/opt/ros/humble /usr/bin/cmake --build /home/robotrodeo/capstone/build/sllidar_ros2 -- -j4 -l4
+[2.571s] [ 14%] Built target sllidar_client
+[2.577s] [100%] Built target sllidar_node
+[2.693s] Invoked command in '/home/robotrodeo/capstone/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/opt/ros/humble /usr/bin/cmake --build /home/robotrodeo/capstone/build/sllidar_ros2 -- -j4 -l4
+[3.135s] Invoking command in '/home/robotrodeo/capstone/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/opt/ros/humble /usr/bin/cmake --install /home/robotrodeo/capstone/build/sllidar_ros2
+[3.169s] -- Install configuration: ""
+[3.176s] -- Execute custom install script
+[3.189s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[3.190s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py
+[3.191s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[3.192s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[3.192s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[3.193s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[3.194s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[3.194s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[3.196s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py
+[3.197s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[3.200s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[3.202s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[3.205s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[3.208s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[3.213s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[3.218s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[3.221s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[3.224s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[3.229s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[3.237s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[3.240s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[3.244s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[3.247s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[3.251s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[3.252s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[3.253s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[3.254s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[3.256s] -- Symlinking: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[3.310s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[3.312s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.315s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.317s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[3.319s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[3.320s] -- Up-to-date symlink: /home/robotrodeo/capstone/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[3.339s] Invoked command in '/home/robotrodeo/capstone/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/opt/ros/humble /usr/bin/cmake --install /home/robotrodeo/capstone/build/sllidar_ros2

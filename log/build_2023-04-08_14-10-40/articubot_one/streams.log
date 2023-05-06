@@ -1,0 +1,82 @@
+[0.150s] Invoking command in '/home/robotrodeo/capstone/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotrodeo/capstone/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotrodeo/capstone/install/articubot_one
+[1.890s] -- The C compiler identification is GNU 11.3.0
+[2.133s] -- The CXX compiler identification is GNU 11.3.0
+[2.201s] -- Detecting C compiler ABI info
+[2.770s] -- Detecting C compiler ABI info - done
+[2.804s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.809s] -- Detecting C compile features
+[2.813s] -- Detecting C compile features - done
+[2.831s] -- Detecting CXX compiler ABI info
+[3.388s] -- Detecting CXX compiler ABI info - done
+[3.424s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.426s] -- Detecting CXX compile features
+[3.429s] -- Detecting CXX compile features - done
+[3.472s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.089s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[5.761s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.290s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.126s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.255s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.268s] -- Added test 'lint_cmake' to check CMake code style
+[7.289s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.386s] -- Added test 'xmllint' to check XML markup files
+[7.415s] -- Configuring done
+[7.443s] -- Generating done
+[7.450s] -- Build files have been written to: /home/robotrodeo/capstone/build/articubot_one
+[7.471s] Invoked command in '/home/robotrodeo/capstone/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotrodeo/capstone/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotrodeo/capstone/install/articubot_one
+[7.481s] Invoking command in '/home/robotrodeo/capstone/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotrodeo/capstone/build/articubot_one -- -j4 -l4
+[7.738s] Invoked command in '/home/robotrodeo/capstone/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotrodeo/capstone/build/articubot_one -- -j4 -l4
+[7.967s] Invoking command in '/home/robotrodeo/capstone/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotrodeo/capstone/build/articubot_one
+[8.029s] -- Install configuration: ""
+[8.033s] -- Execute custom install script
+[8.039s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml
+[8.098s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml
+[8.165s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[8.234s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/empty.yaml
+[8.301s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[8.359s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/gazebo_params.yaml
+[8.428s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/joystick.yaml
+[8.483s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/main.rviz
+[8.550s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/map.rviz
+[8.614s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[8.691s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[8.743s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[8.801s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[8.845s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[8.889s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/description/camera.xacro
+[8.939s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/description/depth_camera.xacro
+[8.977s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/description/face.xacro
+[9.030s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[9.067s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[9.128s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/description/lidar.xacro
+[9.187s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[9.239s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[9.281s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[9.337s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py
+[9.414s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/camera.launch.py
+[9.464s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[9.538s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[9.597s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[9.654s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[9.699s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[9.755s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[9.793s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[9.838s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[9.897s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/worlds/empty.world
+[9.964s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[10.011s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[10.065s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[10.114s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[10.167s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[10.202s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/environment/path.sh
+[10.245s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/environment/path.dsv
+[10.278s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/local_setup.bash
+[10.320s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/local_setup.sh
+[10.365s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/local_setup.zsh
+[10.406s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/local_setup.dsv
+[10.451s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/package.dsv
+[10.486s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[10.538s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[10.574s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[10.620s] -- Symlinking: /home/robotrodeo/capstone/install/articubot_one/share/articubot_one/package.xml
+[10.678s] Invoked command in '/home/robotrodeo/capstone/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotrodeo/capstone/build/articubot_one

@@ -1,0 +1,213 @@
+[0.145s] Invoking command in '/home/robotrodeo/capstone/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/opt/ros/humble /usr/bin/cmake --build /home/robotrodeo/capstone/build/robot_interfaces -- -j4 -l4
+[0.291s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.310s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.328s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.347s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.599s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.907s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.767s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.891s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.005s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.117s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.117s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.118s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[5.214s] -- Configuring done
+[5.399s] -- Generating done
+[5.417s] -- Build files have been written to: /home/robotrodeo/capstone/build/robot_interfaces
+[5.535s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.579s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.633s] [  6%] Built target ament_cmake_python_copy_robot_interfaces
+[7.057s] [  6%] Built target robot_interfaces__cpp
+[7.117s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_generator_c[0m
+[7.138s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.169s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.197s] [ 16%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/encoder_data__functions.c.o[0m
+[7.320s] running egg_info
+[7.327s] writing robot_interfaces.egg-info/PKG-INFO
+[7.338s] writing dependency_links to robot_interfaces.egg-info/dependency_links.txt
+[7.338s] writing top-level names to robot_interfaces.egg-info/top_level.txt
+[7.344s] reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[7.347s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[7.542s] [ 16%] Built target ament_cmake_python_build_robot_interfaces_egg
+[7.627s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.406s] [ 22%] [32m[1mLinking C shared library librobot_interfaces__rosidl_generator_c.so[0m
+[8.847s] [ 22%] Built target robot_interfaces__rosidl_generator_c
+[8.889s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[8.950s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.972s] [ 29%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/msg/detail/dds_fastrtps/encoder_data__type_support.cpp.o[0m
+[8.978s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_cpp[0m
+[8.990s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_cpp[0m
+[9.064s] [ 32%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/encoder_data__type_support.cpp.o[0m
+[9.067s] [ 35%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/msg/encoder_data__type_support.cpp.o[0m
+[10.277s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_c[0m
+[10.361s] [ 38%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/msg/detail/encoder_data__type_support_c.cpp.o[0m
+[11.864s] [ 41%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_cpp.so[0m
+[12.293s] [ 41%] Built target robot_interfaces__rosidl_typesupport_cpp
+[12.385s] [ 45%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.413s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.649s] [ 51%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[12.918s] [ 51%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[13.009s] [ 51%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[13.019s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.048s] [ 58%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[13.456s] [ 58%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[13.935s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_c[0m
+[13.986s] [ 61%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/msg/detail/encoder_data__type_support.c.o[0m
+[14.148s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_c[0m
+[14.189s] [ 64%] [32m[1mLinking C shared library librobot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[14.205s] [ 67%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/msg/encoder_data__type_support.cpp.o[0m
+[14.327s] [ 67%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[14.365s] [ 70%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_c.so[0m
+[14.524s] [ 70%] Built target robot_interfaces__rosidl_typesupport_c
+[14.607s] [ 70%] Built target robot_interfaces
+[14.690s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.045s] [ 74%] Built target robot_interfaces__py
+[16.094s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_generator_py[0m
+[16.150s] [ 77%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/msg/_encoder_data_s.c.o[0m
+[16.706s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/librobot_interfaces__rosidl_generator_py.so[0m
+[16.886s] [ 80%] Built target robot_interfaces__rosidl_generator_py
+[16.933s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[16.934s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[16.937s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_c__pyext[0m
+[17.002s] [ 83%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.010s] [ 87%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[17.024s] [ 90%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.491s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[17.495s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[17.645s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[17.689s] [100%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[17.722s] [100%] Built target robot_interfaces__rosidl_typesupport_c__pyext
+[17.812s] [100%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[17.855s] Invoked command in '/home/robotrodeo/capstone/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/opt/ros/humble /usr/bin/cmake --build /home/robotrodeo/capstone/build/robot_interfaces -- -j4 -l4
+[18.203s] Invoking command in '/home/robotrodeo/capstone/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/opt/ros/humble /usr/bin/cmake --install /home/robotrodeo/capstone/build/robot_interfaces
+[18.252s] -- Install configuration: ""
+[18.253s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces
+[18.253s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[18.253s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[18.254s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+[18.254s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__functions.h
+[18.255s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__struct.h
+[18.255s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__type_support.h
+[18.256s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__functions.c
+[18.258s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[18.258s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/encoder_data.h
+[18.259s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh
+[18.260s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv
+[18.262s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so
+[18.265s] -- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so" to ""
+[18.265s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[18.266s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[18.266s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+[18.267s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__rosidl_typesupport_fastrtps_c.h
+[18.268s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.269s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[18.272s] -- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[18.273s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[18.273s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[18.273s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+[18.274s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__rosidl_typesupport_introspection_c.h
+[18.275s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__type_support.c
+[18.276s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.277s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so
+[18.280s] -- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[18.281s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so
+[18.289s] -- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so" to ""
+[18.289s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[18.290s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[18.290s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+[18.291s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__struct.hpp
+[18.291s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__builder.hpp
+[18.292s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__traits.hpp
+[18.292s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/encoder_data.hpp
+[18.292s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[18.293s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[18.293s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+[18.294s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/dds_fastrtps
+[18.294s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__rosidl_typesupport_fastrtps_cpp.hpp
+[18.295s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.296s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[18.299s] -- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.302s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[18.302s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[18.302s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+[18.303s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__type_support.cpp
+[18.304s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/encoder_data__rosidl_typesupport_introspection_cpp.hpp
+[18.304s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[18.307s] -- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[18.308s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so
+[18.310s] -- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so" to ""
+[18.311s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh
+[18.311s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv
+[18.313s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info
+[18.313s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[18.314s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[18.316s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[18.317s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[18.318s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces
+[18.319s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[18.321s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[18.322s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[18.324s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/librobot_interfaces__rosidl_generator_py.so
+[18.325s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py
+[18.326s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[18.328s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[18.329s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.330s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg
+[18.331s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/__init__.py
+[18.332s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_encoder_data_s.c
+[18.333s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_encoder_data.py
+[18.492s] Listing '/home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces'...
+[18.494s] Compiling '/home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py'...
+[18.495s] Listing '/home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg'...
+[18.496s] Compiling '/home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/__init__.py'...
+[18.497s] Compiling '/home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_encoder_data.py'...
+[18.519s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[18.522s] -- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[18.524s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[18.527s] -- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[18.529s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[18.532s] -- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[18.533s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so
+[18.535s] -- Set runtime path of "/home/robotrodeo/capstone/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so" to ""
+[18.536s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/msg/EncoderData.idl
+[18.537s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/msg/EncoderData.msg
+[18.538s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces
+[18.539s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces
+[18.540s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh
+[18.541s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv
+[18.542s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/environment/path.sh
+[18.542s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/environment/path.dsv
+[18.544s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/local_setup.bash
+[18.544s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/local_setup.sh
+[18.545s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/local_setup.zsh
+[18.545s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/local_setup.dsv
+[18.546s] -- Installing: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/package.dsv
+[18.548s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces
+[18.548s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake
+[18.549s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[18.550s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[18.550s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[18.551s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[18.551s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.552s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake
+[18.553s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[18.554s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake
+[18.554s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.555s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[18.556s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[18.556s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.558s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake
+[18.558s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[18.559s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake
+[18.559s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[18.559s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[18.560s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.560s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[18.561s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[18.561s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.562s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.562s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.562s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake
+[18.563s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake
+[18.563s] -- Up-to-date: /home/robotrodeo/capstone/install/robot_interfaces/share/robot_interfaces/package.xml
+[18.578s] Invoked command in '/home/robotrodeo/capstone/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotrodeo/capstone/install/encoder:/opt/ros/humble /usr/bin/cmake --install /home/robotrodeo/capstone/build/robot_interfaces
